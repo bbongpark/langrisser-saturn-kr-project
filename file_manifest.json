@@ -1,0 +1,1084 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 42,
+      "sha256": "63fb3679c326237289839003940788c1f4e1a137fe4b088b86a18aeda9de9899"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 616,
+      "sha256": "88874d4fb40a17d9bce4530fea372ac1c8f371b27665f6407721729805d5dd8b"
+    },
+    {
+      "path": "1.3V 패치/개조판/APACHE-2.0-LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "1.3V 패치/개조판/apply.ps1",
+      "bytes": 5741,
+      "sha256": "b7bd6cd851009a5b7d9fabe474347739e947cca70644c8f9714bf5d0d437336b"
+    },
+    {
+      "path": "1.3V 패치/개조판/langrisser-kr-mod-v1.3-track1.xdelta",
+      "bytes": 2066028,
+      "sha256": "97cdac1cbe5da232fd51bc745683e60f33713d722c4aa409b387bc060db2353a"
+    },
+    {
+      "path": "1.3V 패치/개조판/langrisser-mod.cue",
+      "bytes": 527,
+      "sha256": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af"
+    },
+    {
+      "path": "1.3V 패치/개조판/manifest.json",
+      "bytes": 2421,
+      "sha256": "58fb5c885a30072d25657ac04592b5b47cebadb21db3922edf068bfec98dbf60"
+    },
+    {
+      "path": "1.3V 패치/개조판/xdelta3.exe",
+      "bytes": 336896,
+      "sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0"
+    },
+    {
+      "path": "1.3V 패치/개조판/설명서.txt",
+      "bytes": 2803,
+      "sha256": "91769539f0450e42489b7e0b2430b4b971ed5beb030e2a615c7516da66d88358"
+    },
+    {
+      "path": "1.3V 패치/개조판/적용하기.bat",
+      "bytes": 294,
+      "sha256": "9b7bf6b2f64c9638d27f3da388a44e81620067126a10f77e7302dd4d3a7913c4"
+    },
+    {
+      "path": "1.3V 패치/랑그릿사_1.3V_개조판_패치.zip",
+      "bytes": 2234072,
+      "sha256": "12ba5a82e2f844d1fea70aa6b5c3de1a9817c67d1dfb51b1519eca54cd9b45e4"
+    },
+    {
+      "path": "1.3V 패치/랑그릿사_1.3V_한글판_패치.zip",
+      "bytes": 2231830,
+      "sha256": "cd4ba825766f7b7a13660b59e05a466aaca7d523b8ca6a3dd576dd053df4f2e3"
+    },
+    {
+      "path": "1.3V 패치/먼저_읽어주세요.txt",
+      "bytes": 1219,
+      "sha256": "054c69bc6a97a0c38b662e70ee04a3a0625f93e086b4c5fe9d6fadaad1c296bc"
+    },
+    {
+      "path": "1.3V 패치/제작_검증_기록.md",
+      "bytes": 2394,
+      "sha256": "3a3929c9b563d6d4238806fef171f2922014cae5b209b04c2f5b3ebbbf6322a5"
+    },
+    {
+      "path": "1.3V 패치/한글판/APACHE-2.0-LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "1.3V 패치/한글판/apply.ps1",
+      "bytes": 5741,
+      "sha256": "b7bd6cd851009a5b7d9fabe474347739e947cca70644c8f9714bf5d0d437336b"
+    },
+    {
+      "path": "1.3V 패치/한글판/langrisser-kr-v1.3-track1.xdelta",
+      "bytes": 2064288,
+      "sha256": "8ac2948d3a90a479270a6fd161ae2f4d24e1dd176c32b9beb6ece6cb476acac8"
+    },
+    {
+      "path": "1.3V 패치/한글판/langrisser-krpoc.cue",
+      "bytes": 527,
+      "sha256": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af"
+    },
+    {
+      "path": "1.3V 패치/한글판/manifest.json",
+      "bytes": 2118,
+      "sha256": "168fe703bf278438a76bad98aa87f55152d1480dd8956d0a7c48dacd1c53f7d9"
+    },
+    {
+      "path": "1.3V 패치/한글판/xdelta3.exe",
+      "bytes": 336896,
+      "sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0"
+    },
+    {
+      "path": "1.3V 패치/한글판/설명서.txt",
+      "bytes": 2236,
+      "sha256": "a386437a527d30057deaf56f78de516d471980bf5567f32860ce0b93fd497bb8"
+    },
+    {
+      "path": "1.3V 패치/한글판/적용하기.bat",
+      "bytes": 294,
+      "sha256": "9b7bf6b2f64c9638d27f3da388a44e81620067126a10f77e7302dd4d3a7913c4"
+    },
+    {
+      "path": "1.3V/검증상태.txt",
+      "bytes": 921,
+      "sha256": "7058794b31c630c2e8618a0da32f45de24882d30a96ae224d064ce2c831b2591"
+    },
+    {
+      "path": "1.3V/랑그릿사 I&II 1.3V 개조판.chd",
+      "bytes": 463542441,
+      "sha256": "8cca99eaa4d318e7d689e2f456ce3466bbd0ecc8823bcebacecf809c7ae4287f"
+    },
+    {
+      "path": "1.3V/랑그릿사 I&II 1.3V 한글판.chd",
+      "bytes": 463542427,
+      "sha256": "dac5df5183ea4c528b1195d683c36d806d042cf5215e5ad938d041fb952948d8"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1421,
+      "sha256": "4cc09fabead31beca5cc95a0713fe676f6ec2e2e8b92da407d77010ab9c90605"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 922,
+      "sha256": "ee1e3517801e2d78746020e038783e20c550f0497d9e2583bb8f71e11d0080c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3287,
+      "sha256": "3b14a4951b56e72da3ad7c9ea6dae86a134e43f21fd07e70bf6f938d7efb461b"
+    },
+    {
+      "path": "docs/세션_정리_20260930.md",
+      "bytes": 10218,
+      "sha256": "a7f2b5e9ca03413032a1e490a5d096d5316ce003c92490ba15b448c758ca2486"
+    },
+    {
+      "path": "docs/저장소_구성_검사.json",
+      "bytes": 685,
+      "sha256": "ba63fd08a5b1ecae1766bfeb76b6b993defd26a31b6be8f44427a1e91df2d262"
+    },
+    {
+      "path": "개조/AGENTS.md",
+      "bytes": 1823,
+      "sha256": "32eb409afd02aafb9564b4daca838f4a86ef6a47c0a8e09b94ee1b7fd22032ff"
+    },
+    {
+      "path": "개조/CLAUDE.md",
+      "bytes": 1823,
+      "sha256": "32eb409afd02aafb9564b4daca838f4a86ef6a47c0a8e09b94ee1b7fd22032ff"
+    },
+    {
+      "path": "개조/README.md",
+      "bytes": 3903,
+      "sha256": "9e6da6e7f79b164e3b3d11eed76020fd31e976135dcc5086aa14f52915fb906f"
+    },
+    {
+      "path": "개조/data/balance/character_l2.json",
+      "bytes": 7689,
+      "sha256": "e739b5a21187eaa5d4c337e7e9c306e1d715b303ced0cab2e3b788dbe191ed07"
+    },
+    {
+      "path": "개조/data/balance/class_l1.json",
+      "bytes": 161781,
+      "sha256": "dfa9f7ea85341c9db85257341cc2d1be9b8ab30a7fdafe722cd388a758afc8df"
+    },
+    {
+      "path": "개조/data/balance/class_l2.json",
+      "bytes": 161830,
+      "sha256": "bab500e8730e2a072bab0073e31a0a373249c67c1d655552c9cb25b5840c4fbf"
+    },
+    {
+      "path": "개조/data/balance/fight_l1.json",
+      "bytes": 46187,
+      "sha256": "61846196a8dcebfb566d1c5aecbf0195b66235a7eb182a9d6595e89c1c10bfca"
+    },
+    {
+      "path": "개조/data/balance/fight_l2.json",
+      "bytes": 46241,
+      "sha256": "bba16c38fa7d46082308f37da822db7230de1fa3180f455d3556c36f4278a43a"
+    },
+    {
+      "path": "개조/data/balance/item_l2.json",
+      "bytes": 7916,
+      "sha256": "6db7ead5f61e76a8e18b8afc031da3db8d427ff42f1480f4a1664947aa09bfbf"
+    },
+    {
+      "path": "개조/data/balance/magic_l2.json",
+      "bytes": 2779,
+      "sha256": "33264b4f8e14daa26dc17038d2ed3c5a63856640a3a58e063a655e6e095caf2c"
+    },
+    {
+      "path": "개조/data/balance/matchup_l2.json",
+      "bytes": 18661,
+      "sha256": "52a95d45cf059637c40d3b9857ee5c135098a06c26d7924420743cb17f87c3bb"
+    },
+    {
+      "path": "개조/data/balance/promotion_l2.json",
+      "bytes": 32705,
+      "sha256": "595aec28eabccf85ce32ea3f5ce925b51f0fe1fb4dc58070d06d64d84067e456"
+    },
+    {
+      "path": "개조/data/balance/shop_l2.json",
+      "bytes": 3237,
+      "sha256": "fc5a90f9a184e39049ac577219bb14774f43d294d4cb7d2459c8d6180f91143b"
+    },
+    {
+      "path": "개조/data/balance/stage_l2.json",
+      "bytes": 972662,
+      "sha256": "0bba6cd132bbc3fdc9b185c276afb0b3c83d3728c3817a763a8bd17e1dfeefa9"
+    },
+    {
+      "path": "개조/data/balance/stage_reward_l2.json",
+      "bytes": 7534,
+      "sha256": "7f3da87d963f82a258ce2254dd6aca5a9e542159ac2f845df749ca7f37e04547"
+    },
+    {
+      "path": "개조/data/balance/terrain_l2.json",
+      "bytes": 33259,
+      "sha256": "eb696d26453f8587878f8b61c9ba9e7405d97d9eb3dbcf3fa17f0a25787de223"
+    },
+    {
+      "path": "개조/data/code_patches.json",
+      "bytes": 2340,
+      "sha256": "b430d3af59e372fa7556e0a7457f665f83d1a92cdbba89ea11448963f10fadf3"
+    },
+    {
+      "path": "개조/docs/BALANCE_PIPELINE.md",
+      "bytes": 17245,
+      "sha256": "8069c988062572973df91a4b9172b93bc5c4e6348a7c7202009693c68140a9fe"
+    },
+    {
+      "path": "개조/docs/BALANCE_PLAN.md",
+      "bytes": 10232,
+      "sha256": "7915d8693e36401a6c5f80cbd5a324b61550dace5277c492f0ce50e21915ab3f"
+    },
+    {
+      "path": "개조/docs/HANDOFF_BALANCE.md",
+      "bytes": 25069,
+      "sha256": "72d2d85749307cd58f06b04fef5ab3f60c7546694d934803682a4210645e6012"
+    },
+    {
+      "path": "개조/docs/전면개편_기획초안.md",
+      "bytes": 39782,
+      "sha256": "861762055d441d089a9d37b8a9319ea1d3f7e80bb1469264c020e1c1fb0c9751"
+    },
+    {
+      "path": "개조/project.json",
+      "bytes": 110,
+      "sha256": "2bc048150bc965b40bb901d6ba224250a163f6192c0605f6366583c652ee0f1b"
+    },
+    {
+      "path": "개조/scripts/balance/_item_dump.txt",
+      "bytes": 3060,
+      "sha256": "8cb060419575551ff8f35c9fdd4e025d8b09de3dce1659f97d6f0655248bf45e"
+    },
+    {
+      "path": "개조/scripts/balance/apply_balance.py",
+      "bytes": 4103,
+      "sha256": "49ec36b76ced72c6c6908e137407e73d5812cd985ff767a2100cacb0eca4b164"
+    },
+    {
+      "path": "개조/scripts/balance/apply_stage.py",
+      "bytes": 4097,
+      "sha256": "eee9c848d6ee3fdf3a8f1ccc3edfc4ef1475737e4d42efbd11d76c57b073beaf"
+    },
+    {
+      "path": "개조/scripts/balance/bin_region.py",
+      "bytes": 2620,
+      "sha256": "afbeb1e3304eb5d35766e605e4758aeb17cc3c1af80eb26f1514cd4ef4be2678"
+    },
+    {
+      "path": "개조/scripts/balance/character_dat.py",
+      "bytes": 6347,
+      "sha256": "717823b6085d5986ecb50d36b6e089a8885091071ba3edb07fe71e354c930de1"
+    },
+    {
+      "path": "개조/scripts/balance/class_dat.py",
+      "bytes": 5529,
+      "sha256": "dce23e398ae7e6004f33cfc0d4f69724e2224956a8763051537ba497b1255a23"
+    },
+    {
+      "path": "개조/scripts/balance/disc_files.py",
+      "bytes": 4195,
+      "sha256": "9003d00673b118caf2399156ebc76e2fe99ff1edfbc2f26fabc22d1e572fad93"
+    },
+    {
+      "path": "개조/scripts/balance/extract_balance.py",
+      "bytes": 2564,
+      "sha256": "de73ea57e8afee793f14a23d755e851ad5c960876ed4a96e9627a0062fb7e428"
+    },
+    {
+      "path": "개조/scripts/balance/extract_stage.py",
+      "bytes": 2326,
+      "sha256": "530dcb9c3dda6f2bf569ecb23b45ac135cabb88a417e6e81544c95a0454aec13"
+    },
+    {
+      "path": "개조/scripts/balance/fight_dat.py",
+      "bytes": 2717,
+      "sha256": "e04fd1cd62e403785bb4af25b9198a5aef882a1765ec7b57eb0c626d8352086a"
+    },
+    {
+      "path": "개조/scripts/balance/item_dat.py",
+      "bytes": 5410,
+      "sha256": "7b36382356fd79c2b27f76ef17a33bca006092a62c8017cebe64969b7831eab5"
+    },
+    {
+      "path": "개조/scripts/balance/json_io.py",
+      "bytes": 396,
+      "sha256": "5160320911d0a8d1fe32f160e252a3fe56ae18f62b6acbe0500726c8a2e4c9ed"
+    },
+    {
+      "path": "개조/scripts/balance/langr_compress.py",
+      "bytes": 8686,
+      "sha256": "9e4a1d8a81f89abb7f3773d9f16090d6304fd8fbd7abe417850f3e9210a6ad2f"
+    },
+    {
+      "path": "개조/scripts/balance/magic_dat.py",
+      "bytes": 3480,
+      "sha256": "7a8e2037c04a6765a8f6f0cfa8dbef922efebb6231a33323b6666a83d40dd738"
+    },
+    {
+      "path": "개조/scripts/balance/matchup_dat.py",
+      "bytes": 3127,
+      "sha256": "e65e61dddc2afcfe2583a349cb9c26f7fe34a912d35f219cc1847673d557d983"
+    },
+    {
+      "path": "개조/scripts/balance/project_paths.py",
+      "bytes": 377,
+      "sha256": "14b7cf211df40f024a2f8ba074b6b06c3f0273e8ffcd20a1efa3f76ad13259d6"
+    },
+    {
+      "path": "개조/scripts/balance/promotion_dat.py",
+      "bytes": 7470,
+      "sha256": "9f87ccc3323cf01a38bb438e8c63f098aebca23b9eee73191e5c98bf6d41df79"
+    },
+    {
+      "path": "개조/scripts/balance/registry.py",
+      "bytes": 4321,
+      "sha256": "a191bc7bc03b9802c30b3794b34071eed22e8b47b5d55f1c961ee93aee341ce3"
+    },
+    {
+      "path": "개조/scripts/balance/shop_dat.py",
+      "bytes": 4133,
+      "sha256": "3898c704420eea837b23a5a95c58a1a315613dbb511bda82589f76d5ed073714"
+    },
+    {
+      "path": "개조/scripts/balance/shop_dump.txt",
+      "bytes": 5810,
+      "sha256": "5c42c5bfd4b4d68e6df2ac7863734e9afcba6b923274d2c1929bfda0af263dc3"
+    },
+    {
+      "path": "개조/scripts/balance/stage_dat.py",
+      "bytes": 11271,
+      "sha256": "31a76ff4b091954572cbb927d10d55f86f85d33be0c1d2861f13bd743ba6dfe6"
+    },
+    {
+      "path": "개조/scripts/balance/stage_reward_dat.py",
+      "bytes": 2645,
+      "sha256": "50474ef74767a8fa2e453ac57d08f863ee56f11bccc3a809da7ad83cafad8776"
+    },
+    {
+      "path": "개조/scripts/balance/terrain_dat.py",
+      "bytes": 5434,
+      "sha256": "37012d66a8aacdbb3d99c1f3f5b5254b9a7375fb9744d38cad963e5977e66f88"
+    },
+    {
+      "path": "개조/scripts/rebuild.py",
+      "bytes": 7992,
+      "sha256": "552cda03557ceb200b7645b59d2d720f81badac7947d22fb130cf9a84121cff0"
+    },
+    {
+      "path": "개조/tests/test_build.py",
+      "bytes": 1259,
+      "sha256": "14274fe40554822ca1fcca96200352e29b548048927782c393cafa4316fc2e0d"
+    },
+    {
+      "path": "개조/개조_빌드.bat",
+      "bytes": 209,
+      "sha256": "a92ff2eae7cc0644cf09324802f135cf838f4b255b7afd6884f2b534f3f0ea10"
+    },
+    {
+      "path": "랑그릿사_한글화_기술문서.html",
+      "bytes": 30813,
+      "sha256": "762ba00d5d80096ff602af017c3b4281a3f6424b33882b4d6f2eabd8b5b5005b"
+    },
+    {
+      "path": "분리_검증결과.json",
+      "bytes": 768,
+      "sha256": "050a74f53e6c341aca138aeae99edd54f0fa0665875cacac8e61f8ef22f184a3"
+    },
+    {
+      "path": "분석/개조설정변경_20260930/final_verification.json",
+      "bytes": 2193,
+      "sha256": "5d6c1f5297db45ba7cd92cc0d3dc82b204fcd8157f01411c332a8c7a72d5e4a3"
+    },
+    {
+      "path": "분석/개조설정변경_20260930/verify_profile.py",
+      "bytes": 3278,
+      "sha256": "8874e837e730c05c66fe9b6225e73fcbddc993d0dfb0ede0edf53449bc3c1683"
+    },
+    {
+      "path": "분석/원작버그수정_20260915/audit_translation_compatibility.py",
+      "bytes": 7200,
+      "sha256": "d77175834468ce6f392ea1198893628750d190881b1f722928c8108067479d4e"
+    },
+    {
+      "path": "분석/원작버그수정_20260915/chd_outputs.json",
+      "bytes": 933,
+      "sha256": "8616535e4281bf8f4c95288b0cb837f399accdbef08280d3f2be2b32d799326a"
+    },
+    {
+      "path": "분석/원작버그수정_20260915/compatibility_audit.json",
+      "bytes": 2505,
+      "sha256": "b22309decf4690b5a6022cc5fd70101069f00653c68fe0dd492ded6cb25c9f2a"
+    },
+    {
+      "path": "분석/원작버그수정_20260915/final_verification.json",
+      "bytes": 2292,
+      "sha256": "1e8b96cb60cf9cecc92bbdafdbb1d2e51337a8df84c367be350bb999e774db85"
+    },
+    {
+      "path": "분석/원작버그수정_20260915/mod_build.log",
+      "bytes": 265,
+      "sha256": "4ed5ed359751d39e005c44f4b22eda18696e769baa58b5244ef93e9a54a6e255"
+    },
+    {
+      "path": "분석/원작버그수정_20260915/translation_build.log",
+      "bytes": 4030,
+      "sha256": "d09c9377cf7fbf3c2902954764f0f0e4313ab5e3dc125a2eb2625548be0d2410"
+    },
+    {
+      "path": "분석/원작버그수정_20260915/한글화_영향_재검사.md",
+      "bytes": 3706,
+      "sha256": "d690ca09512f87e421df6b79b6b8ebfd2eff71b750a225db60781d3faf2782cd"
+    },
+    {
+      "path": "분석/타인패치/LANG1.BIN.diff.json",
+      "bytes": 24223,
+      "sha256": "12d0082b2046752b35d40401cc89b4be620e322a624c4161aae6df80ba7d8a09"
+    },
+    {
+      "path": "분석/타인패치/LANG1_CLASS.DAT.diff.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "분석/타인패치/LANG1_SCEN.DAT.diff.json",
+      "bytes": 1413365,
+      "sha256": "1b8f200eee199c0953725a83e4668a65ed4bbe55d5eb6d372ea0ed4803171a8e"
+    },
+    {
+      "path": "분석/타인패치/LANG1_nontext_diff.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "분석/타인패치/LANG2.BIN.diff.json",
+      "bytes": 22513,
+      "sha256": "1807186a134c2f0189bdac07b54e607c26f69457aba0a180ffa85cd26fbe3905"
+    },
+    {
+      "path": "분석/타인패치/LANG2_CLASS.DAT.diff.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "분석/타인패치/LANG2_SCEN.DAT.diff.json",
+      "bytes": 9382424,
+      "sha256": "95485837f219c66b29d0b41d3441af31f37ef2075c5bc57216cecc83ea482144"
+    },
+    {
+      "path": "분석/타인패치/LANG2_nontext_diff.json",
+      "bytes": 34004,
+      "sha256": "1586fac81822f31e46ed9cedce4411c572cce922b8656423bb43414eb3d888a6"
+    },
+    {
+      "path": "분석/타인패치/analysis_evidence.json",
+      "bytes": 7403,
+      "sha256": "9e6c1c77ed8c8b54cead1e25a592e8632d1bf63f7374ab423521c006481e8a8b"
+    },
+    {
+      "path": "분석/타인패치/analyze_patch.py",
+      "bytes": 4611,
+      "sha256": "2c1105b600ec3041eba17be4c886799e0d1a59903f547563dee575ab06083f07"
+    },
+    {
+      "path": "분석/타인패치/code_comparison.txt",
+      "bytes": 9423,
+      "sha256": "3b6a417af5df15b45177caf78cacd33eafe82e1684d553f6e560e48f31375d90"
+    },
+    {
+      "path": "분석/타인패치/scenario10_event_diff.json",
+      "bytes": 140,
+      "sha256": "cf8697d6b43be29397851d184c61e8f0f476c3bb3ae20626c39d9789ba0a010e"
+    },
+    {
+      "path": "분석/타인패치/tools/xdelta/xdelta3-3.2.0-windows-x86_64/README.md",
+      "bytes": 2316,
+      "sha256": "577abe9ba3726bf00bd37f9d2c88e3d6efb3acb450fd40bcaef57bb937c61d12"
+    },
+    {
+      "path": "분석/타인패치/verified_windows.json",
+      "bytes": 8309,
+      "sha256": "698593ddaa75e88a885d31a4a523cf6233ee7c0086514a2828df40e4843b78af"
+    },
+    {
+      "path": "분석/타인패치/windows.txt",
+      "bytes": 34353,
+      "sha256": "49e7d3058ed935c3c687dace9cf31e283a82c0ac5155d2c4f4928ce9f3afe304"
+    },
+    {
+      "path": "분석/타인패치/분석보고서.md",
+      "bytes": 9999,
+      "sha256": "94c2cc536ac18431df741eb02a4b7135bcc8c911f54aa1ed403db086670faa6d"
+    },
+    {
+      "path": "원본_준비하기.bat",
+      "bytes": 119,
+      "sha256": "e7e6d7aeb5b33f703bb13fd7b6f01443fc4db7ab8c51259369fd26f996bcae65"
+    },
+    {
+      "path": "원본_준비하기.ps1",
+      "bytes": 2246,
+      "sha256": "ad7c3b8fe6f90e622528280f20be0c32493c28078d4f40e1c833e18c24178449"
+    },
+    {
+      "path": "프로젝트_사용안내.md",
+      "bytes": 1679,
+      "sha256": "e8dbe317d5f0ff0f0050e435d76370bb498cd6e32c65ef9c01ba93f85b3ea4d5"
+    },
+    {
+      "path": "한글화/AGENTS.md",
+      "bytes": 2055,
+      "sha256": "3ce50313b3f8509290a62b33c96e0c4f10192bcf78fc8e7c6149a9ff626c74db"
+    },
+    {
+      "path": "한글화/CLAUDE.md",
+      "bytes": 1926,
+      "sha256": "4c933c0db91a7c9f7f50006d3c36e9206c38ef298637403e0c26151b433dd06b"
+    },
+    {
+      "path": "한글화/README.md",
+      "bytes": 2864,
+      "sha256": "a2e4700fa1aa8f64246661aa7c435fa84b3bad3155a4b735e56b72fa133315de"
+    },
+    {
+      "path": "한글화/build/classnames.json",
+      "bytes": 26517,
+      "sha256": "697024fbacd3d433db82b977f4fb7564bc16b9bdd78d30546eae7f061a126433"
+    },
+    {
+      "path": "한글화/build/steam_charnames.json",
+      "bytes": 6163,
+      "sha256": "9bbab76da6bd2d596a5a0a9ed77942996be04593b4f5c483af2ac8ede253ec68"
+    },
+    {
+      "path": "한글화/build/steam_glossary.json",
+      "bytes": 28061,
+      "sha256": "610a5a43226b9d71137dee5cf16f3587ad387a1b620f6e49d0c8eefbd079e76e"
+    },
+    {
+      "path": "한글화/build/worksheet_dedup_final.json",
+      "bytes": 6133245,
+      "sha256": "6ea30df2edda2450b6419ffb9f68e6026bc6fd482ce94fef7f33bf20d2df2965"
+    },
+    {
+      "path": "한글화/docs/HANDOFF.md",
+      "bytes": 225121,
+      "sha256": "fbf42eede942a97139af7af4aead1ad32744cb87a553bcd4679ee0abe4a14a20"
+    },
+    {
+      "path": "한글화/docs/검수_사용자판단.md",
+      "bytes": 129092,
+      "sha256": "4b58d563a3d3e3c76cdaa046b6d5a61a503353017aa5df10e7be516755b4db58"
+    },
+    {
+      "path": "한글화/docs/검수_진행현황.md",
+      "bytes": 13634,
+      "sha256": "e58807bd7edd044cbbe3f31e0b1d836476f4057335bd93401934bc598e8d3cd6"
+    },
+    {
+      "path": "한글화/docs/말투_재검수_20260915.md",
+      "bytes": 47573,
+      "sha256": "8e11558c293964f50552bc41382875cb2e8e55d186c6b37f65aa476a4d351a83"
+    },
+    {
+      "path": "한글화/docs/원작버그수정_20260915.md",
+      "bytes": 9058,
+      "sha256": "c9a6e2a1ee53d29f95b889fea15e27da269d002450dab50628b3ae552a047a9c"
+    },
+    {
+      "path": "한글화/docs/초기_기술문서.html",
+      "bytes": 30813,
+      "sha256": "762ba00d5d80096ff602af017c3b4281a3f6424b33882b4d6f2eabd8b5b5005b"
+    },
+    {
+      "path": "한글화/fonts/dalmoori.ttf",
+      "bytes": 1468304,
+      "sha256": "ba40b8f9ada002005d1f5f3676a82b7bff07ddbd186a923073101099131999e6"
+    },
+    {
+      "path": "한글화/fonts/neodgm.ttf",
+      "bytes": 651044,
+      "sha256": "77305267996073aae07bad9313dad2e306a4128e55bfafbed4c41558fee57b4d"
+    },
+    {
+      "path": "한글화/requirements.txt",
+      "bytes": 28,
+      "sha256": "13e35a854193bf7494b33b42be486c4fbd9cd66e02509376ea644c348bf7f6ca"
+    },
+    {
+      "path": "한글화/scripts/_proof.py",
+      "bytes": 583,
+      "sha256": "82fd5813e7358ef8fc8c9e850c8a70594cb0e9f1384a016b6a031c44d66dc18d"
+    },
+    {
+      "path": "한글화/scripts/apply_fixes.py",
+      "bytes": 4511,
+      "sha256": "827637711457e1c476c89784cfdd9cd5fc5097bec2905214b4f744fac75c440b"
+    },
+    {
+      "path": "한글화/scripts/audit_dialogue.py",
+      "bytes": 8540,
+      "sha256": "2f0c248e11164c98552ad7128c64791cacae157f67c0744b577bbe92925c0d78"
+    },
+    {
+      "path": "한글화/scripts/audit_pagebreak.py",
+      "bytes": 4104,
+      "sha256": "55d24976978206c8778d2537c50f4ea4ec2f9e3c97fbe4b74c17c12d424aece8"
+    },
+    {
+      "path": "한글화/scripts/audit_pages.py",
+      "bytes": 5316,
+      "sha256": "24d84767948b05faea8abf3a537fd886d8c4808c5d622b9c045e323f261b998f"
+    },
+    {
+      "path": "한글화/scripts/audit_register.py",
+      "bytes": 8000,
+      "sha256": "d580122c7043e2a6d71276db50eab289972db400504a6149f95b6e99f1d3b045"
+    },
+    {
+      "path": "한글화/scripts/audit_style.py",
+      "bytes": 5377,
+      "sha256": "85a1df7d7ca3d132d43569618b0103688348665c73bd99d504237bcc8e57e407"
+    },
+    {
+      "path": "한글화/scripts/audit_tone_candidates.py",
+      "bytes": 7319,
+      "sha256": "087ffaf63ed450abc68ccaca89c17fc4be4d5ac5f91d5e76d76fcfede5ae7cf7"
+    },
+    {
+      "path": "한글화/scripts/audit_ui_width.py",
+      "bytes": 4878,
+      "sha256": "42027a43be20713fe65dd2a97ea7a14aee81b4e937fafa91fe45bb2e6afae766"
+    },
+    {
+      "path": "한글화/scripts/audit_wrap.py",
+      "bytes": 7756,
+      "sha256": "352cbe852ddb09fbe0ade58f78f1326ace7e6ae63c8359a3fd3c8a52d9e79708"
+    },
+    {
+      "path": "한글화/scripts/bugfixes_l2.py",
+      "bytes": 6584,
+      "sha256": "e07f1b9a7539397595e3173774357b5a363fdb28efa97978a48b9944cb7ae29e"
+    },
+    {
+      "path": "한글화/scripts/build_hwspace_poc.py",
+      "bytes": 7232,
+      "sha256": "5d76fa10aaf8e8afe235d9bc18083b29a07412df8c8b446750a7a1316ff73412"
+    },
+    {
+      "path": "한글화/scripts/build_krmte_poc.py",
+      "bytes": 4731,
+      "sha256": "f6f0a9ea5b91d9ac72d1866fb56158667228f2add16e6c407e52795a59a81677"
+    },
+    {
+      "path": "한글화/scripts/build_launch_disc.py",
+      "bytes": 2700,
+      "sha256": "54cb4aad7f54dcb22d5428f03a61669e7180e83dc93658106476e31e7408ffb8"
+    },
+    {
+      "path": "한글화/scripts/build_manifest.py",
+      "bytes": 1711,
+      "sha256": "298dc35c0fa14dc140cde758bf5cd2285dd06b050d7577f4f33b07908fb8b8c6"
+    },
+    {
+      "path": "한글화/scripts/build_page_poc.py",
+      "bytes": 4039,
+      "sha256": "3dfef2a060cdb64ed7bd7802d652e0d6b3130e111c0b77d7eb968a9e2680c600"
+    },
+    {
+      "path": "한글화/scripts/build_poc_disc.py",
+      "bytes": 6423,
+      "sha256": "9a713993ed163795c21e3a8f60ccaeeb1d0bf23904aa62112ead3fc80b64f7b1"
+    },
+    {
+      "path": "한글화/scripts/build_spacetest.py",
+      "bytes": 5549,
+      "sha256": "a6410b0e1afd731b4aec8f33066509f33bd6752ee5e0c44a2ef74a0feb9923bc"
+    },
+    {
+      "path": "한글화/scripts/build_translate_poc.py",
+      "bytes": 7555,
+      "sha256": "0f00cf77262effd697a9cd1e711f77ff4feba6fb59900b27c33c6dcf4737dc1b"
+    },
+    {
+      "path": "한글화/scripts/dialogue_editor.py",
+      "bytes": 41010,
+      "sha256": "7aa9b4a254979d5a7af7d4311ad325bee2b8bc211efa079eef07ef34145ad504"
+    },
+    {
+      "path": "한글화/scripts/disc_tool.py",
+      "bytes": 5418,
+      "sha256": "fbab46c3c7141ed90f638b2f20f11d08a1151fe30e72a3d6efbd8de261938bf8"
+    },
+    {
+      "path": "한글화/scripts/dump_block.py",
+      "bytes": 3585,
+      "sha256": "35485332ea488df89e36ea44699bd3cf62451d50ee1807bb72a6014f849a8344"
+    },
+    {
+      "path": "한글화/scripts/dump_scenario_kr.py",
+      "bytes": 9985,
+      "sha256": "cc03e7e563142ec834c2c35cf217348750d8a901e443a6e3daeb485493c24f66"
+    },
+    {
+      "path": "한글화/scripts/extract_steam_glossary.py",
+      "bytes": 6103,
+      "sha256": "e15e8a629fb92ca2fc9eaf05d321c3ab10cb60a8be2ce17f9a30ce81c8d62011"
+    },
+    {
+      "path": "한글화/scripts/extract_text.py",
+      "bytes": 7486,
+      "sha256": "d46c842ffe2ca2675e507a7e5be57c956c01b3ba1ac1641b4e9286d57ff70031"
+    },
+    {
+      "path": "한글화/scripts/fix_fullscreen_pages.py",
+      "bytes": 6098,
+      "sha256": "05c7cfdfe790da75ad5aca06bea904222a212d15683e2fb884e8f2d7013e9a1a"
+    },
+    {
+      "path": "한글화/scripts/fix_josa_all.py",
+      "bytes": 7980,
+      "sha256": "07277a798d7df735856259a521293c96e8348a8d1aebfb0140eb80851952e9f0"
+    },
+    {
+      "path": "한글화/scripts/fix_name_josa.py",
+      "bytes": 5336,
+      "sha256": "cc7d6c20b9a381a83a6f3eba19d62ad8b9cee723a3f1d920a8da802cf6284cbf"
+    },
+    {
+      "path": "한글화/scripts/fix_wait_josa.py",
+      "bytes": 3516,
+      "sha256": "d4d30f75c62bb192e198a2185f54389aa018b85de20be1a387b6739ba67af912"
+    },
+    {
+      "path": "한글화/scripts/gen_classnames.py",
+      "bytes": 69498,
+      "sha256": "b4c3f21a08f5d762a58758162e64b1d82232cca56bc08610dff318f1c23d7bed"
+    },
+    {
+      "path": "한글화/scripts/gen_menutext.py",
+      "bytes": 6266,
+      "sha256": "16b27f6be6de96a6811b59af25c0cbe1e2feb477a3aa3b54bd159d16ccb19cd1"
+    },
+    {
+      "path": "한글화/scripts/img_re/BATTLE_OVERLAY_MAP.md",
+      "bytes": 5376,
+      "sha256": "194ba8243770e3fef8239de0656520d89030dbfd8611b28ac1e092af2507db20"
+    },
+    {
+      "path": "한글화/scripts/img_re/BRIEFING.md",
+      "bytes": 8323,
+      "sha256": "9b80e86602c33038aa91da9de6eb4152f67edd804e02d211645ad537b85d5997"
+    },
+    {
+      "path": "한글화/scripts/img_re/FORMAT.md",
+      "bytes": 6108,
+      "sha256": "430cd600e3c49e8b4af78664bd56c9a50c08c1514583e99719c837aac26317fb"
+    },
+    {
+      "path": "한글화/scripts/img_re/LABELS_CATALOG.md",
+      "bytes": 30593,
+      "sha256": "44f2800592b066ed0e4861e250559b39e4e01dc754e1eee2c1f0c4c545c35e92"
+    },
+    {
+      "path": "한글화/scripts/img_re/brute.py",
+      "bytes": 2976,
+      "sha256": "a808f646e2c8a9958c39c30e53e8c0f2509a7e4e3b6ac5b62cf73728dc0e523d"
+    },
+    {
+      "path": "한글화/scripts/img_re/brute_prs.py",
+      "bytes": 2802,
+      "sha256": "0127f658234bc0c774b0ccc1b07e4e9710ff8db5db873cf079e24d9be339cd24"
+    },
+    {
+      "path": "한글화/scripts/img_re/crack.py",
+      "bytes": 3611,
+      "sha256": "1135896652c638f43f116ed659d0eedd908dd51e238d5e63660a4daa61375a6e"
+    },
+    {
+      "path": "한글화/scripts/img_re/crack2.py",
+      "bytes": 3006,
+      "sha256": "b600441f126395795afd163b0ced0ec857bf0b470f7cf05ccd5a138e33f1afa1"
+    },
+    {
+      "path": "한글화/scripts/img_re/data/pnt_refs.json",
+      "bytes": 2035,
+      "sha256": "4076c091c9881e28b92aa4c0ec4327f204140b427c3535a1a69019c6a65f7a5f"
+    },
+    {
+      "path": "한글화/scripts/img_re/data/regions.json",
+      "bytes": 960,
+      "sha256": "0aa78822a0aee9d919e412d103e1293865a574164094e2c72be34dfa6212831a"
+    },
+    {
+      "path": "한글화/scripts/img_re/data/state.json",
+      "bytes": 2743,
+      "sha256": "98a4018929a116b200944aab2e57550975b960b5f53551bf1d6ffb4245994324"
+    },
+    {
+      "path": "한글화/scripts/img_re/decode_v2.py",
+      "bytes": 3469,
+      "sha256": "df47181436714522cc9e135a02bad66ed9567ce4e44df98dbd58c7cf383e0d83"
+    },
+    {
+      "path": "한글화/scripts/img_re/dump_tiles.py",
+      "bytes": 3596,
+      "sha256": "985b411953f14e0d2f80e39126bda39f8a805ee9f976c9b9272d7fc293201754"
+    },
+    {
+      "path": "한글화/scripts/img_re/explore.py",
+      "bytes": 3154,
+      "sha256": "d9d9544d5853808b9511d25ed3aca9fd778f7fa564b79bb3e0b95941439f252c"
+    },
+    {
+      "path": "한글화/scripts/img_re/explore2.py",
+      "bytes": 2468,
+      "sha256": "f8161382933f0828700bc2bb149eb8f8858669d6494c43f2a9ac278abfce90b2"
+    },
+    {
+      "path": "한글화/scripts/img_re/explore3.py",
+      "bytes": 2420,
+      "sha256": "92bafb11d08e2c5013b50ede5b8574331d247d774edd7220b5f55d2b5bc735f1"
+    },
+    {
+      "path": "한글화/scripts/img_re/explore4.py",
+      "bytes": 2095,
+      "sha256": "75c8e9f79704670abf44604cc128423ba433cc81e8aedea33425dbe0e2ec7568"
+    },
+    {
+      "path": "한글화/scripts/img_re/gen_hud8.py",
+      "bytes": 13444,
+      "sha256": "d53a512b742a9d530be9877d19b23b4b693d1718fb9865166ef6a64de17c46e0"
+    },
+    {
+      "path": "한글화/scripts/img_re/gen_menu_kr.py",
+      "bytes": 4884,
+      "sha256": "f135ab1fcf3371ec2e19e81faa453cdbdcd7fa31b01cefefc5c9533a511046cb"
+    },
+    {
+      "path": "한글화/scripts/img_re/gen_menu_kr_all.py",
+      "bytes": 7354,
+      "sha256": "03fe53854e35bbbbe7a514af890a6f244b4727ee7257745d64bdb4dac0c4edeb"
+    },
+    {
+      "path": "한글화/scripts/img_re/gen_titlemenu.py",
+      "bytes": 6965,
+      "sha256": "85d72232cfd2f3ed5ad6b918d70e101f529c8a3110229878cbb3666b172b0451"
+    },
+    {
+      "path": "한글화/scripts/img_re/img_codec.py",
+      "bytes": 14813,
+      "sha256": "4cce5fca393689816293afff73f7c986d31d2d8c1f850c003b1ecb3dab2567f1"
+    },
+    {
+      "path": "한글화/scripts/img_re/menu_labels.json",
+      "bytes": 828,
+      "sha256": "07095c70db9c012c1d572b828f959f7e9639f3d015a4e2ef90ebd9d25710397a"
+    },
+    {
+      "path": "한글화/scripts/img_re/overlay_map.py",
+      "bytes": 3336,
+      "sha256": "6c8877cf17db61c440572ae08f9576620f7d5c6a46d7e01a4715632c5b8a8dab"
+    },
+    {
+      "path": "한글화/scripts/img_re/overlay_map2.py",
+      "bytes": 2711,
+      "sha256": "d607060b713e2b4edb4ccecfce9760b3a3ad9118f78daeef263f95ce7d0c83e2"
+    },
+    {
+      "path": "한글화/scripts/img_re/patch_katakana_redirect.py",
+      "bytes": 6945,
+      "sha256": "c16ca878fe8805c1071d2737a7dd62b3db20fb8483d3f422413900ab968aca42"
+    },
+    {
+      "path": "한글화/scripts/img_re/prs.py",
+      "bytes": 2896,
+      "sha256": "ba949eb384fed1c672bcffb14b0060e511cad80c4ad6f3295a8d08a0a2219501"
+    },
+    {
+      "path": "한글화/scripts/img_re/refont_labels.py",
+      "bytes": 7267,
+      "sha256": "efe36a2e0d87126f68c05934ff9ecdc6fb44f42118f23265768745df0b248e87"
+    },
+    {
+      "path": "한글화/scripts/img_re/sh2dis.py",
+      "bytes": 6442,
+      "sha256": "943d1708f8ccf4b28a55e6251eae91d358314e976e6951267e247997f8041f94"
+    },
+    {
+      "path": "한글화/scripts/img_re/trace.py",
+      "bytes": 1783,
+      "sha256": "e49b83100ff98c3d1bb224df600ad714fc5ddb7f02da6b53ef1de84087593d6d"
+    },
+    {
+      "path": "한글화/scripts/img_re/try_lzss.py",
+      "bytes": 3513,
+      "sha256": "903401103227d142ab69c332aabe5aa71608de177abf0a2fdcd2eee5584d5278"
+    },
+    {
+      "path": "한글화/scripts/img_re/try_lzss2.py",
+      "bytes": 1370,
+      "sha256": "2b0190e328855fe10f73d6745852aae13323f142b1438726a3e624bd702c5ebc"
+    },
+    {
+      "path": "한글화/scripts/kr_encoding.py",
+      "bytes": 12597,
+      "sha256": "d8d4450683443c9302daf596b56f2041a3ba912f8ce3833fc15e46fadcf94ba5"
+    },
+    {
+      "path": "한글화/scripts/kr_font.py",
+      "bytes": 10530,
+      "sha256": "bac69678d64bca57ccfde8a643f9ae157e04c97edca312f8e084ad374f41bdf3"
+    },
+    {
+      "path": "한글화/scripts/kr_markup.py",
+      "bytes": 23044,
+      "sha256": "67e070c9cec0281bbc576951427dfe056c946f3e6cd2ff08edf81ffff81284a1"
+    },
+    {
+      "path": "한글화/scripts/kr_mte.py",
+      "bytes": 5677,
+      "sha256": "d0d4341840d27e1f8e50f50612c4a7c06b9f0bcbbe1247f0b7324ec7f8e8f06b"
+    },
+    {
+      "path": "한글화/scripts/kr_names.py",
+      "bytes": 4082,
+      "sha256": "83612f1e118bb123fd0a738853b96f49e833d90865843125322740617678415e"
+    },
+    {
+      "path": "한글화/scripts/kr_poc.py",
+      "bytes": 2881,
+      "sha256": "004c91a26df180410778f678181209ebe8b4e173494fc1dd8fbe411801eb55a2"
+    },
+    {
+      "path": "한글화/scripts/kr_render.py",
+      "bytes": 11267,
+      "sha256": "851852da80e43f797f14b977624b7656882942ca15e5c2e5213f6d4f7d7cd9ed"
+    },
+    {
+      "path": "한글화/scripts/leaf_geometry_probe.py",
+      "bytes": 4347,
+      "sha256": "13ec165df80e70b578cdb5c3d5af0579a907721314dbe77ff30d771a10566631"
+    },
+    {
+      "path": "한글화/scripts/match_steam.py",
+      "bytes": 4253,
+      "sha256": "e82cd7d97cf9b94bc8a851004afe68d4a735983b69b1d562f6b2f15838792f91"
+    },
+    {
+      "path": "한글화/scripts/merge_batches.py",
+      "bytes": 3840,
+      "sha256": "c1bd5f930987200db4eb1c8241975322b9c4fac5557ad35fbdd33605d4904a55"
+    },
+    {
+      "path": "한글화/scripts/merge_translations.py",
+      "bytes": 2215,
+      "sha256": "d42fb52842aab71bfa6e6a81ad2cf34d05a2bcfba097c225b679249ae35a2e7a"
+    },
+    {
+      "path": "한글화/scripts/prep_batches.py",
+      "bytes": 4661,
+      "sha256": "49607dd2acfa710cbc87327d6a1868f5f16f2400983f2dfb1c6af3fc9518e743"
+    },
+    {
+      "path": "한글화/scripts/preserve_save.py",
+      "bytes": 2288,
+      "sha256": "0fc3baed58f268a9de7c5c4a62caf144b1eabc87b9b1fc2b20c15fb3a191001a"
+    },
+    {
+      "path": "한글화/scripts/rebuild.py",
+      "bytes": 3305,
+      "sha256": "8c5c2eb40f9768738ddced0f6bdfc345b0e9d247e43a6fa8ee5b47d40c42ac45"
+    },
+    {
+      "path": "한글화/scripts/reinsert_text.py",
+      "bytes": 31953,
+      "sha256": "05c438fe25bade845107cb84e5e32f8b8b2c4518277efc56cbf0636897398dc5"
+    },
+    {
+      "path": "한글화/scripts/repaginate.py",
+      "bytes": 12246,
+      "sha256": "963a71494525edc839b790945e968707a5f96afbd5fee4497b6edd867ac2510e"
+    },
+    {
+      "path": "한글화/scripts/restyle_dialogue.py",
+      "bytes": 17190,
+      "sha256": "a47063e746b7f466fe7ce006eeb58368f8658e9d2d1dacd46f8c59585105c8f5"
+    },
+    {
+      "path": "한글화/scripts/restyle_narration.py",
+      "bytes": 8713,
+      "sha256": "5e3f13e5d93bf095a52281ff6023b7390ff03d2e36e1d0f17cc64f9a350d2748"
+    },
+    {
+      "path": "한글화/scripts/review_tone_queue.py",
+      "bytes": 2386,
+      "sha256": "077930ea9eb6ad27b3c02b8247c77329e4714a42c8027c14fa349ad4ddcd104a"
+    },
+    {
+      "path": "한글화/scripts/scen_text.py",
+      "bytes": 6628,
+      "sha256": "52f79c2c0093d52f6b1d1d43cb228b37a38d27d691a70b64a9cc20e9b9757c2c"
+    },
+    {
+      "path": "한글화/scripts/scen_tool.py",
+      "bytes": 6024,
+      "sha256": "a2871163cef5324a9845fe44341d8817b65670d75a452a3f0856eefb27ab5f75"
+    },
+    {
+      "path": "한글화/scripts/verify_base_fixes.py",
+      "bytes": 1954,
+      "sha256": "ed8fadbaec779bbd82835c46751f83838720e6ce3d1524b064d723a674cfd980"
+    },
+    {
+      "path": "한글화/scripts/verify_disc_layout.py",
+      "bytes": 8116,
+      "sha256": "a3be4e47c49f94864d8034454dcb0f2da1b0351706538734a72ad7c5471f25bd"
+    },
+    {
+      "path": "한글화/scripts/verify_goddess_frozen.py",
+      "bytes": 6147,
+      "sha256": "f926250a5af473e8db0642263ef36892238f6554d1598040e1602619e5028035"
+    },
+    {
+      "path": "한글화/tests/test_bugfixes_l2.py",
+      "bytes": 9371,
+      "sha256": "01421dfc45682db7e2569cec719606cac6f268b53225aeef83aae4c1389efe91"
+    },
+    {
+      "path": "한글화/tools/chdman.exe",
+      "bytes": 2684416,
+      "sha256": "1a919f7be4b94993da3fb543539d8affe3a7e64dd3a9f61c20992a1e4eebd9dd"
+    },
+    {
+      "path": "한글화/대사검수툴.bat",
+      "bytes": 226,
+      "sha256": "4abc6a59d788240f2e4ceebda4e028d96551cfd139e299009a7af98b7e569a2d"
+    },
+    {
+      "path": "한글화/한글화_빌드.bat",
+      "bytes": 357,
+      "sha256": "28bf8264bbe60f0443e884eb675a59247c26c5249ef9132bd48d2f40c98ceb23"
+    },
+    {
+      "path": "한글화/환경_준비.bat",
+      "bytes": 226,
+      "sha256": "ebbb5a23fd0c2bdfa4cd7e6a52d1a6ddad23bdee0716c183c0d065fc2bac606a"
+    }
+  ]
+}

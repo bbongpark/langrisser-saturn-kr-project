@@ -1,0 +1,64 @@
+{
+  "format_version": 1,
+  "variant": "한글판",
+  "supported_source": "Langrisser I & II Dramatic Edition (Japan) (1M), raw 6-track BIN/CUE",
+  "output_folder": "Langrisser_KR_v1.3",
+  "patch_file": "langrisser-kr-v1.3-track1.xdelta",
+  "patch_sha256": "8ac2948d3a90a479270a6fd161ae2f4d24e1dd176c32b9beb6ece6cb476acac8",
+  "cue_file": "langrisser-krpoc.cue",
+  "cue_sha256": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af",
+  "tool_file": "xdelta3.exe",
+  "tool_sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+  "source_tracks": [
+    {
+      "size": 392784000,
+      "sha256": "3a135dcb603e43836142d10df9104da398632035915549071b0fe0156d079797"
+    },
+    {
+      "size": 161335440,
+      "sha256": "1c04a65e066e3f7cf79a7e31fd8f5604de9d9198d7cb3d711bb87ea69bdec2b4"
+    },
+    {
+      "size": 10007760,
+      "sha256": "337d64ac0c42be64f908c58c74672ce6127a1eab38cd3315cd4043ddf50c3514"
+    },
+    {
+      "size": 17070816,
+      "sha256": "929a11760cc61c50358246538afa6ccb651fe6e485d5d2f78c072c08f7b98cbc"
+    },
+    {
+      "size": 73629360,
+      "sha256": "860bc78b1779dc1237fa08918415e1e87e47ef1cfd34df8a04fc28ff74398711"
+    },
+    {
+      "size": 1764000,
+      "sha256": "70cd48bd52d09e9bbabe0e532ee32cd1f21d92c50fc22b6c2c2cddef4705508b"
+    }
+  ],
+  "result_tracks": [
+    {
+      "size": 392784000,
+      "sha256": "fafa948819a2d9cdb2c7c96d39984a4758055c265e5a3deb170776fabb34c71c"
+    },
+    {
+      "size": 161335440,
+      "sha256": "1c04a65e066e3f7cf79a7e31fd8f5604de9d9198d7cb3d711bb87ea69bdec2b4"
+    },
+    {
+      "size": 10007760,
+      "sha256": "337d64ac0c42be64f908c58c74672ce6127a1eab38cd3315cd4043ddf50c3514"
+    },
+    {
+      "size": 17070816,
+      "sha256": "929a11760cc61c50358246538afa6ccb651fe6e485d5d2f78c072c08f7b98cbc"
+    },
+    {
+      "size": 73629360,
+      "sha256": "860bc78b1779dc1237fa08918415e1e87e47ef1cfd34df8a04fc28ff74398711"
+    },
+    {
+      "size": 1764000,
+      "sha256": "70cd48bd52d09e9bbabe0e532ee32cd1f21d92c50fc22b6c2c2cddef4705508b"
+    }
+  ]
+}

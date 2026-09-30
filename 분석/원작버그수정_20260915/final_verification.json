@@ -1,0 +1,74 @@
+{
+  "한글화": {
+    "before_sha256": "effc8b0035a606d2ab52d2a5607dac2d3f8b1078dafaac32fa759eac8d6ed140",
+    "after_sha256": "b01f128656d269679577dff46be904374271394782593838a3cbc8e695221c44",
+    "files": {
+      "LANG1.BIN": "expected changes only",
+      "LANG1/FONT.DAT": "unchanged",
+      "LANG1/IMG.DAT": "unchanged",
+      "LANG1/CLASS.DAT": "unchanged",
+      "LANG1/FIGHT.DAT": "unchanged",
+      "LANG1/SCEN.DAT": "only requested voice, item stats, and zero padding changes",
+      "LANG2.BIN": "expected changes only",
+      "LANG2/FONT.DAT": "unchanged",
+      "LANG2/IMG.DAT": "unchanged",
+      "LANG2/CLASS.DAT": "unchanged",
+      "LANG2/FIGHT.DAT": "unchanged",
+      "LANG2/SCEN.DAT": "only requested voice, item stats, and zero padding changes"
+    },
+    "item_stats_fixed": 118,
+    "frozen_blocks_unchanged": [
+      [
+        "LANG1",
+        20
+      ],
+      [
+        "LANG2",
+        98
+      ],
+      [
+        "LANG2",
+        100
+      ]
+    ],
+    "changed_sectors": 2174,
+    "all_changed_sectors_within_requested_files": true,
+    "changed_sector_checksums_valid": true
+  },
+  "개조": {
+    "before_sha256": "b5919065c06e14eb169dc5a6d9cf97a92559c312d4b41f4d736cd70921bfe55e",
+    "after_sha256": "1a65453e920b7254d466c35205ae043af7119e55e665825fb0cebdf1b4b36536",
+    "files": {
+      "LANG1.BIN": "expected changes only",
+      "LANG1/FONT.DAT": "unchanged",
+      "LANG1/IMG.DAT": "unchanged",
+      "LANG1/CLASS.DAT": "unchanged",
+      "LANG1/FIGHT.DAT": "unchanged",
+      "LANG1/SCEN.DAT": "only requested voice, item stats, and zero padding changes",
+      "LANG2.BIN": "expected changes only",
+      "LANG2/FONT.DAT": "unchanged",
+      "LANG2/IMG.DAT": "unchanged",
+      "LANG2/CLASS.DAT": "unchanged",
+      "LANG2/FIGHT.DAT": "unchanged",
+      "LANG2/SCEN.DAT": "only requested voice, item stats, and zero padding changes"
+    },
+    "item_stats_fixed": 118,
+    "frozen_blocks_unchanged": [
+      [
+        "LANG1",
+        20
+      ],
+      [
+        "LANG2",
+        98
+      ],
+      [
+        "LANG2",
+        100
+      ]
+    ],
+    "changed_sectors": 2174,
+    "all_changed_sectors_within_requested_files": true,
+    "changed_sector_checksums_valid": true
+  }
+}

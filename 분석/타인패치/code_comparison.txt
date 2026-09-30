@@ -1,0 +1,123 @@
+
+LANG2.BIN file offsets 0xcede..0xcf06; PC shown relative to file
+
+00cede: 6173 mov r7,r1                                       | 6173 mov r7,r1
+00cee0: 7102 add #0x2,r1                                     | 7102 add #0x2,r1
+00cee2: 6010 mov.b @r1,r0                                    | 6010 mov.b @r1,r0
+00cee4: c980 and #0x80,r0                                    | c980 and #0x80,r0
+00cee6: 2008 tst r0,r0                                       | 2008 tst r0,r0
+00cee8: 8f04 bf/s 0x0000cef4                                 | 890d bt 0x0000cf06
+00ceea: 6173 mov r7,r1                                       | 6173 mov r7,r1
+00ceec: 7103 add #0x3,r1                                     | 7103 add #0x3,r1
+00ceee: 6110 mov.b @r1,r1                                    | 6110 mov.b @r1,r1
+00cef0: 2118 tst r1,r1                                       | 2118 tst r1,r1
+00cef2: 8b08 bf 0x0000cf06                                   | 8b08 bf 0x0000cf06
+00cef4: 6363 mov r6,r3                                       | 6363 mov r6,r3
+00cef6: 7326 add #0x26,r3                                    | 7326 add #0x26,r3
+00cef8: 6231 mov.w @r3,r2                                    | 6231 mov.w @r3,r2
+00cefa: 612d extu.w r2,r1                                    | 612d extu.w r2,r1
+00cefc: 3180 cmp/eq r8,r1                                    | 3180 cmp/eq r8,r1
+00cefe: 8d02 bt/s 0x0000cf06                                 | 8d02 bt/s 0x0000cf06
+00cf00: 6123 mov r2,r1                                       | 6123 mov r2,r1
+00cf02: 7101 add #0x1,r1                                     | 7101 add #0x1,r1
+00cf04: 2311 mov.w r1,@r3                                    | 2311 mov.w r1,@r3
+
+LANG2.BIN file offsets 0x178c4..0x17918; PC shown relative to file
+
+0178c4: 2fe6 mov.l r14,@-r15                                 | d10c mov.l @(0x30,pc),r1  ; =0x000178f8
+0178c6: 6ef3 mov r15,r14                                     | e003 mov #0x3,r0
+0178c8: d305 mov.l @(0x14,pc),r3  ; =0x000178e0              | 1101 mov.l r0,@(0x4,r1)
+0178ca: d206 mov.l @(0x18,pc),r2  ; =0x000178e4              | 6212 mov.l @r1,r2
+0178cc: e103 mov #0x3,r1                                     | 6024 mov.b @r2+,r0
+0178ce: 2212 mov.l r1,@r2                                    | 600c extu.b r0,r0
+0178d0: d105 mov.l @(0x14,pc),r1  ; =0x000178e8              | 6320 mov.b @r2,r3
+0178d2: 6112 mov.l @r1,r1                                    | d10a mov.l @(0x28,pc),r1  ; =0x000178fc
+0178d4: 6214 mov.b @r1+,r2                                   | 6112 mov.l @r1,r1
+0178d6: 602c extu.b r2,r0                                    | 7147 add #0x47,r1
+0178d8: 6110 mov.b @r1,r1                                    | 6110 mov.b @r1,r1
+0178da: 0314 mov.b r1,@(r0,r3)                               | e228 mov #0x28,r2
+0178dc: 000b rts                                             | 0127 mul.l r2,r1
+0178de: 6ef6 mov.l @r15+,r14                                 | 011a .word 0x011a
+0178e0: 0609 .word 0x0609                                    | d207 mov.l @(0x1c,pc),r2  ; =0x00017900
+0178e2: c9f0 and #0xf0,r0                                    | 312c add r2,r1
+0178e4: 0609 .word 0x0609                                    | 310c add r0,r1
+0178e6: feb4 .word 0xfeb4                                    | 6210 mov.b @r1,r2
+0178e8: 0609 .word 0x0609                                    | e003 mov #0x3,r0
+0178ea: feb0 .word 0xfeb0                                    | 3207 cmp/gt r0,r2
+0178ec: 2fe6 mov.l r14,@-r15                                 | 8900 bt 0x000178f0
+0178ee: 6ef3 mov r15,r14                                     | 6203 mov r0,r2
+0178f0: d306 mov.l @(0x18,pc),r3  ; =0x0001790c              | 323c add r3,r2
+0178f2: d207 mov.l @(0x1c,pc),r2  ; =0x00017910              | 2120 mov.b r2,@r1
+0178f4: e103 mov #0x3,r1                                     | 000b rts
+0178f6: 2212 mov.l r1,@r2                                    | 0009 nop
+0178f8: d106 mov.l @(0x18,pc),r1  ; =0x00017914              | 0609 .word 0x0609
+0178fa: 6212 mov.l @r1,r2                                    | feb0 .word 0xfeb0
+0178fc: 6124 mov.b @r2+,r1                                   | 0609 .word 0x0609
+0178fe: 601c extu.b r1,r0                                    | cd94 and.b #0x94,@(r0,gbr)
+017900: 013c mov.b @(r0,r3),r1                               | 0609 .word 0x0609
+017902: 6220 mov.b @r2,r2                                    | c9c8 and #0xc8,r0
+017904: 312c add r2,r1                                       | 0000 .word 0x0000
+017906: 0314 mov.b r1,@(r0,r3)                               | 0000 .word 0x0000
+017908: 000b rts                                             | 0000 .word 0x0000
+01790a: 6ef6 mov.l @r15+,r14                                 | 0000 .word 0x0000
+01790c: 0609 .word 0x0609                                    | 0000 .word 0x0000
+01790e: c9f0 and #0xf0,r0                                    | 0000 .word 0x0000
+017910: 0609 .word 0x0609                                    | 0000 .word 0x0000
+017912: feb4 .word 0xfeb4                                    | 0000 .word 0x0000
+017914: 0609 .word 0x0609                                    | 0000 .word 0x0000
+017916: feb0 .word 0xfeb0                                    | 0000 .word 0x0000
+
+LANG2.BIN file offsets 0x2b3aa..0x2b3f6; PC shown relative to file
+
+02b3aa: 8d01 bt/s 0x0002b3b0                                 | 8d01 bt/s 0x0002b3b0
+02b3ac: 6183 mov r8,r1                                       | 6183 mov r8,r1
+02b3ae: 7107 add #0x7,r1                                     | 7107 add #0x7,r1
+02b3b0: 4121 shar r1                                         | 4121 shar r1
+02b3b2: 4121 shar r1                                         | 4121 shar r1
+02b3b4: 4121 shar r1                                         | 4121 shar r1
+02b3b6: 31bc add r11,r1                                      | 31bc add r11,r1
+02b3b8: 7114 add #0x14,r1                                    | 7114 add #0x14,r1
+02b3ba: 6110 mov.b @r1,r1                                    | 6110 mov.b @r1,r1
+02b3bc: 631c extu.b r1,r3                                    | 631c extu.b r1,r3
+02b3be: 4811 cmp/pz r8                                       | 4811 cmp/pz r8
+02b3c0: 8d01 bt/s 0x0002b3c6                                 | 8d01 bt/s 0x0002b3c6
+02b3c2: 6183 mov r8,r1                                       | 6183 mov r8,r1
+02b3c4: 7107 add #0x7,r1                                     | 7107 add #0x7,r1
+02b3c6: 4121 shar r1                                         | 4121 shar r1
+02b3c8: 4121 shar r1                                         | 4121 shar r1
+02b3ca: 4121 shar r1                                         | 4121 shar r1
+02b3cc: 4108 shll2 r1                                        | 4108 shll2 r1
+02b3ce: 311c add r1,r1                                       | 311c add r1,r1
+02b3d0: 6083 mov r8,r0                                       | 6083 mov r8,r0
+02b3d2: 3018 sub r1,r0                                       | 3018 sub r1,r0
+02b3d4: 4008 shll2 r0                                        | 4008 shll2 r0
+02b3d6: d114 mov.l @(0x50,pc),r1  ; =0x0002b428              | d114 mov.l @(0x50,pc),r1  ; =0x0002b428
+02b3d8: 011e mov.l @(r0,r1),r1                               | 011e mov.l @(r0,r1),r1
+02b3da: 2319 and r1,r3                                       | 2319 and r1,r3
+02b3dc: 2338 tst r3,r3                                       | 2338 tst r3,r3
+02b3de: 8d05 bt/s 0x0002b3ec                                 | 8d05 bt/s 0x0002b3ec
+02b3e0: 6023 mov r2,r0                                       | 6023 mov r2,r0
+02b3e2: 300c add r0,r0                                       | 300c add r0,r0
+02b3e4: 6183 mov r8,r1                                       | 6183 mov r8,r1
+02b3e6: 7177 add #0x77,r1                                    | 7177 add #0x77,r1
+02b3e8: 0715 mov.w r1,@(r0,r7)                               | 0715 mov.w r1,@(r0,r7)
+02b3ea: 7201 add #0x1,r2                                     | 7201 add #0x1,r2
+02b3ec: 7801 add #0x1,r8                                     | 7801 add #0x1,r8
+02b3ee: e144 mov #0x44,r1                                    | e146 mov #0x46,r1
+02b3f0: 3817 cmp/gt r1,r8                                    | 3817 cmp/gt r1,r8
+02b3f2: 8fda bf/s 0x0002b3aa                                 | 8fda bf/s 0x0002b3aa
+02b3f4: 4811 cmp/pz r8                                       | 4811 cmp/pz r8
+
+LANG2.BIN file offsets 0x62430..0x62446; PC shown relative to file
+
+062430: b8a8 bsr 0x00061584                                  | d18e mov.l @(0x238,pc),r1  ; =0x0006266c
+062432: b0dd bsr 0x000625f0                                  | e003 mov #0x3,r0
+062434: 0000 .word 0x0000                                    | 1101 mov.l r0,@(0x4,r1)
+062436: 0000 .word 0x0000                                    | 6212 mov.l @r1,r2
+062438: dbb2 mov.l @(0x2c8,pc),r11  ; =0x00062704            | 6024 mov.b @r2+,r0
+06243a: d4d9 mov.l @(0x364,pc),r4  ; =0x000627a0             | 600c extu.b r0,r0
+06243c: b6de bsr 0x000631fc                                  | 6220 mov.b @r2,r2
+06243e: b0c4 bsr 0x000625ca                                  | d18c mov.l @(0x230,pc),r1  ; =0x00062670
+062440: de00 mov.l @(0x0,pc),r14  ; =0x00062444              | 0124 mov.b r2,@(r0,r1)
+062442: 0000 .word 0x0000                                    | 000b rts
+062444: bbb0 bsr 0x00061ba8                                  | 0009 nop

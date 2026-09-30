@@ -1,0 +1,464 @@
+[
+  {
+    "window": 0,
+    "size": 8388608,
+    "checksum": "7EA3A19B",
+    "expected": "7EA3A19B",
+    "ok": true
+  },
+  {
+    "window": 1,
+    "size": 8388608,
+    "checksum": "4B64DE26",
+    "expected": "4B64DE26",
+    "ok": true
+  },
+  {
+    "window": 2,
+    "size": 8388608,
+    "checksum": "1D7779EF",
+    "expected": "1D7779EF",
+    "ok": true
+  },
+  {
+    "window": 3,
+    "size": 8388608,
+    "checksum": "F89B0B23",
+    "expected": "F89B0B23",
+    "ok": true
+  },
+  {
+    "window": 4,
+    "size": 8388608,
+    "checksum": "77855A3D",
+    "expected": "77855A3D",
+    "ok": true
+  },
+  {
+    "window": 5,
+    "size": 8388608,
+    "checksum": "935C1999",
+    "expected": "935C1999",
+    "ok": true
+  },
+  {
+    "window": 6,
+    "size": 8388608,
+    "checksum": "34786B39",
+    "expected": "34786B39",
+    "ok": true
+  },
+  {
+    "window": 7,
+    "size": 8388608,
+    "checksum": "F1E29C0F",
+    "expected": "F1E29C0F",
+    "ok": true
+  },
+  {
+    "window": 8,
+    "size": 8388608,
+    "checksum": "F1D58564",
+    "expected": "F1D58564",
+    "ok": true
+  },
+  {
+    "window": 9,
+    "size": 8388608,
+    "checksum": "4026FA86",
+    "expected": "4026FA86",
+    "ok": true
+  },
+  {
+    "window": 10,
+    "size": 8388608,
+    "checksum": "44F3B1CA",
+    "expected": "44F3B1CA",
+    "ok": true
+  },
+  {
+    "window": 11,
+    "size": 8388608,
+    "checksum": "E3721307",
+    "expected": "E3721307",
+    "ok": true
+  },
+  {
+    "window": 12,
+    "size": 8388608,
+    "checksum": "82D3A2DA",
+    "expected": "82D3A2DA",
+    "ok": true
+  },
+  {
+    "window": 13,
+    "size": 8388608,
+    "checksum": "50434076",
+    "expected": "50434076",
+    "ok": true
+  },
+  {
+    "window": 14,
+    "size": 8388608,
+    "checksum": "450A05A5",
+    "expected": "450A05A5",
+    "ok": true
+  },
+  {
+    "window": 15,
+    "size": 8388608,
+    "checksum": "A7566362",
+    "expected": "A7566362",
+    "ok": true
+  },
+  {
+    "window": 16,
+    "size": 8388608,
+    "checksum": "C636248F",
+    "expected": "C636248F",
+    "ok": true
+  },
+  {
+    "window": 17,
+    "size": 8388608,
+    "checksum": "A35B75FA",
+    "expected": "A35B75FA",
+    "ok": true
+  },
+  {
+    "window": 18,
+    "size": 8388608,
+    "checksum": "42E2B6AE",
+    "expected": "42E2B6AE",
+    "ok": true
+  },
+  {
+    "window": 19,
+    "size": 8388608,
+    "checksum": "10AD8DFC",
+    "expected": "10AD8DFC",
+    "ok": true
+  },
+  {
+    "window": 20,
+    "size": 8388608,
+    "checksum": "607B4C4B",
+    "expected": "607B4C4B",
+    "ok": true
+  },
+  {
+    "window": 21,
+    "size": 8388608,
+    "checksum": "1647C9A5",
+    "expected": "1647C9A5",
+    "ok": true
+  },
+  {
+    "window": 22,
+    "size": 8388608,
+    "checksum": "77A5C228",
+    "expected": "77A5C228",
+    "ok": true
+  },
+  {
+    "window": 23,
+    "size": 8388608,
+    "checksum": "87FF7FF2",
+    "expected": "87FF7FF2",
+    "ok": true
+  },
+  {
+    "window": 24,
+    "size": 8388608,
+    "checksum": "6B8CA282",
+    "expected": "6B8CA282",
+    "ok": true
+  },
+  {
+    "window": 25,
+    "size": 8388608,
+    "checksum": "7AB4F2E4",
+    "expected": "7AB4F2E4",
+    "ok": true
+  },
+  {
+    "window": 26,
+    "size": 8388608,
+    "checksum": "51298387",
+    "expected": "51298387",
+    "ok": true
+  },
+  {
+    "window": 27,
+    "size": 8388608,
+    "checksum": "223DB36D",
+    "expected": "223DB36D",
+    "ok": true
+  },
+  {
+    "window": 28,
+    "size": 8388608,
+    "checksum": "459B9C7F",
+    "expected": "459B9C7F",
+    "ok": true
+  },
+  {
+    "window": 29,
+    "size": 8388608,
+    "checksum": "337C4345",
+    "expected": "337C4345",
+    "ok": true
+  },
+  {
+    "window": 30,
+    "size": 8388608,
+    "checksum": "CCEDDFFB",
+    "expected": "CCEDDFFB",
+    "ok": true
+  },
+  {
+    "window": 31,
+    "size": 8388608,
+    "checksum": "0183EE9C",
+    "expected": "0183EE9C",
+    "ok": true
+  },
+  {
+    "window": 32,
+    "size": 8388608,
+    "checksum": "10A81D71",
+    "expected": "10A81D71",
+    "ok": true
+  },
+  {
+    "window": 33,
+    "size": 8388608,
+    "checksum": "7531E450",
+    "expected": "7531E450",
+    "ok": true
+  },
+  {
+    "window": 34,
+    "size": 8388608,
+    "checksum": "C9137A2F",
+    "expected": "C9137A2F",
+    "ok": true
+  },
+  {
+    "window": 35,
+    "size": 8388608,
+    "checksum": "DD7DCE22",
+    "expected": "DD7DCE22",
+    "ok": true
+  },
+  {
+    "window": 36,
+    "size": 8388608,
+    "checksum": "0CA4E7E6",
+    "expected": "0CA4E7E6",
+    "ok": true
+  },
+  {
+    "window": 37,
+    "size": 8388608,
+    "checksum": "03FA2CE6",
+    "expected": "03FA2CE6",
+    "ok": true
+  },
+  {
+    "window": 38,
+    "size": 8388608,
+    "checksum": "919FEC81",
+    "expected": "919FEC81",
+    "ok": true
+  },
+  {
+    "window": 39,
+    "size": 8388608,
+    "checksum": "F2CB1FC6",
+    "expected": "F2CB1FC6",
+    "ok": true
+  },
+  {
+    "window": 40,
+    "size": 8388608,
+    "checksum": "FA114BC2",
+    "expected": "FA114BC2",
+    "ok": true
+  },
+  {
+    "window": 41,
+    "size": 8388608,
+    "checksum": "9D8F5159",
+    "expected": "9D8F5159",
+    "ok": true
+  },
+  {
+    "window": 42,
+    "size": 8388608,
+    "checksum": "BAE626A3",
+    "expected": "BAE626A3",
+    "ok": true
+  },
+  {
+    "window": 43,
+    "size": 8388608,
+    "checksum": "3302408C",
+    "expected": "3302408C",
+    "ok": true
+  },
+  {
+    "window": 44,
+    "size": 8388608,
+    "checksum": "F2D7A215",
+    "expected": "F2D7A215",
+    "ok": true
+  },
+  {
+    "window": 45,
+    "size": 8388608,
+    "checksum": "FE1C067F",
+    "expected": "FE1C067F",
+    "ok": true
+  },
+  {
+    "window": 46,
+    "size": 8388608,
+    "checksum": "BAD2B514",
+    "expected": "BAD2B514",
+    "ok": true
+  },
+  {
+    "window": 47,
+    "size": 8388608,
+    "checksum": "91B9B4A6",
+    "expected": "91B9B4A6",
+    "ok": true
+  },
+  {
+    "window": 48,
+    "size": 8388608,
+    "checksum": "E59799DF",
+    "expected": "E59799DF",
+    "ok": true
+  },
+  {
+    "window": 49,
+    "size": 8388608,
+    "checksum": "93A9844C",
+    "expected": "93A9844C",
+    "ok": true
+  },
+  {
+    "window": 50,
+    "size": 8388608,
+    "checksum": "B9712235",
+    "expected": "B9712235",
+    "ok": true
+  },
+  {
+    "window": 51,
+    "size": 8388608,
+    "checksum": "835EA4E4",
+    "expected": "835EA4E4",
+    "ok": true
+  },
+  {
+    "window": 52,
+    "size": 8388608,
+    "checksum": "B9AA90C5",
+    "expected": "B9AA90C5",
+    "ok": true
+  },
+  {
+    "window": 53,
+    "size": 8388608,
+    "checksum": "B124FC30",
+    "expected": "B124FC30",
+    "ok": true
+  },
+  {
+    "window": 54,
+    "size": 8388608,
+    "checksum": "3989519F",
+    "expected": "3989519F",
+    "ok": true
+  },
+  {
+    "window": 55,
+    "size": 8388608,
+    "checksum": "6D16F741",
+    "expected": "6D16F741",
+    "ok": true
+  },
+  {
+    "window": 56,
+    "size": 8388608,
+    "checksum": "B617AD94",
+    "expected": "B617AD94",
+    "ok": true
+  },
+  {
+    "window": 57,
+    "size": 8388608,
+    "checksum": "C593FCF9",
+    "expected": "C593FCF9",
+    "ok": true
+  },
+  {
+    "window": 58,
+    "size": 8388608,
+    "checksum": "999532DB",
+    "expected": "999532DB",
+    "ok": true
+  },
+  {
+    "window": 59,
+    "size": 8388608,
+    "checksum": "53B909C6",
+    "expected": "53B909C6",
+    "ok": true
+  },
+  {
+    "window": 60,
+    "size": 8388608,
+    "checksum": "61A4AAB6",
+    "expected": "61A4AAB6",
+    "ok": true
+  },
+  {
+    "window": 61,
+    "size": 8388608,
+    "checksum": "86FF743E",
+    "expected": "86FF743E",
+    "ok": true
+  },
+  {
+    "window": 62,
+    "size": 8388608,
+    "checksum": "3CB7FEEF",
+    "expected": "3CB7FEEF",
+    "ok": true
+  },
+  {
+    "window": 63,
+    "size": 8388608,
+    "checksum": "0F63FD56",
+    "expected": "0F63FD56",
+    "ok": true
+  },
+  {
+    "window": 64,
+    "size": 8388608,
+    "checksum": "3EC143DC",
+    "expected": "3EC143DC",
+    "ok": true
+  },
+  {
+    "window": 65,
+    "size": 8388608,
+    "checksum": "3409CC4A",
+    "expected": "3409CC4A",
+    "ok": true
+  }
+]

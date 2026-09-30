@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>랑그릿사 I&amp;II 드라마틱 에디션 — 한글화 종합 기술문서</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif;
+    line-height: 1.75; max-width: 900px; margin: 0 auto; padding: 44px 24px 100px;
+    color: #1c1c1e; background: #fbfbfa;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e4e4e6; background: #161719; }
+    .card, .toc { background: #202225 !important; border-color: #333 !important; }
+    code, pre { background: #2a2c30 !important; border-color: #3a3d42 !important; }
+    .tag { background: #2a3340 !important; color: #8fb8ff !important; }
+    .tag.done { background: #23331f !important; color: #86d888 !important; }
+    .tag.wip  { background: #33301f !important; color: #e0c877 !important; }
+    th { background: #262a30 !important; }
+    td, th { border-color: #3a3d42 !important; }
+    a { color: #7fb3ff; }
+    .note { background: #2a2620 !important; border-color: #6b5a2e !important; }
+    h2 { border-color: #2d436e !important; }
+    .sub, .lead, .muted { color: #9aa0a6 !important; }
+    .flow { background: #1a2733 !important; border-color: #2d436e !important; }
+  }
+  header { border-bottom: 3px solid #2a4d8f; padding-bottom: 22px; margin-bottom: 10px; }
+  h1 { font-size: 1.75rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .sub { color: #666; font-size: 0.96rem; margin: 0; }
+  h2 {
+    font-size: 1.32rem; margin: 52px 0 12px; padding: 10px 0 8px;
+    border-bottom: 2px solid #d8dde5; letter-spacing: -0.01em;
+  }
+  h2 .num {
+    display: inline-block; min-width: 1.9rem; height: 1.9rem; line-height: 1.9rem;
+    text-align: center; background: #2a4d8f; color: #fff; border-radius: 8px;
+    font-size: 1rem; margin-right: 12px; padding: 0 4px;
+  }
+  h3 { font-size: 1.06rem; margin: 26px 0 6px; color: #2a4d8f; }
+  @media (prefers-color-scheme: dark) { h3 { color: #7fb3ff; } }
+  p { margin: 10px 0; }
+  code {
+    font-family: "D2Coding", "SF Mono", Consolas, monospace;
+    background: #eef0f3; padding: 1px 6px; border-radius: 4px; font-size: 0.86em;
+    border: 1px solid #e0e3e8; word-break: break-all;
+  }
+  pre {
+    background: #f4f5f7; border: 1px solid #e0e3e8; border-radius: 8px;
+    padding: 14px 16px; overflow-x: auto; font-size: 0.84rem; line-height: 1.6;
+  }
+  pre code { background: none; border: none; padding: 0; word-break: normal; }
+  .card {
+    background: #fff; border: 1px solid #e4e6ea; border-radius: 10px;
+    padding: 6px 22px 18px; margin: 16px 0;
+  }
+  .tag {
+    display: inline-block; background: #e8f0fe; color: #1a56c4;
+    font-size: 0.74rem; font-weight: 700; padding: 2px 10px; border-radius: 999px;
+    margin: 2px 4px 2px 0; vertical-align: middle;
+  }
+  .tag.done { background: #e3f5e4; color: #1c7a2e; }
+  .tag.wip  { background: #fdf3d8; color: #97701a; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 0.88rem; }
+  th, td { border: 1px solid #dfe2e6; padding: 8px 11px; text-align: left; vertical-align: top; }
+  th { background: #f0f2f5; font-weight: 600; }
+  .note {
+    background: #fff8e8; border: 1px solid #e6d28a; border-left: 4px solid #d4a72c;
+    border-radius: 6px; padding: 12px 16px; margin: 16px 0; font-size: 0.9rem;
+  }
+  .toc {
+    background: #f4f6f9; border: 1px solid #e0e4ea; border-radius: 10px;
+    padding: 16px 22px; margin: 24px 0; font-size: 0.94rem;
+  }
+  .toc ol { margin: 6px 0; padding-left: 22px; }
+  .toc li { margin: 3px 0; }
+  .toc a { text-decoration: none; color: #2a4d8f; }
+  .toc a:hover { text-decoration: underline; }
+  .muted { color: #777; font-size: 0.9rem; }
+  .flow {
+    font-family: "D2Coding", monospace; font-size: 0.84rem; background: #eef4fb;
+    border: 1px solid #cfe0f2; border-radius: 6px; padding: 10px 14px; overflow-x: auto;
+  }
+  em.k { font-style: normal; color: #2a4d8f; font-weight: 600; }
+  @media (prefers-color-scheme: dark) { em.k { color: #7fb3ff; } }
+  footer { margin-top: 64px; padding-top: 22px; border-top: 1px solid #e0e0e0; color: #888; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>랑그릿사 I&amp;II 드라마틱 에디션 — 한글화 종합 기술문서</h1>
+  <p class="sub">세가 새턴판 팬 한글 번역 · 텍스트 엔진 역공학부터 조판·검증까지 전체 작업 기록</p>
+</header>
+
+<div class="toc">
+  <strong>목차</strong>
+  <ol>
+    <li><a href="#s1">프로젝트 개요와 결과</a></li>
+    <li><a href="#s2">개발 환경</a></li>
+    <li><a href="#s3">텍스트 엔진 역공학</a></li>
+    <li><a href="#s4">한글 폰트·인코딩 설계</a></li>
+    <li><a href="#s5">렌더링 제약 우회 핵심 기법</a></li>
+    <li><a href="#s6">번역 파이프라인</a></li>
+    <li><a href="#s7">한글화 완료 범위 (전체 목록)</a></li>
+    <li><a href="#s8">특수 사례 — 로드창 시나리오 제목</a></li>
+    <li><a href="#s9">검증 방법론</a></li>
+    <li><a href="#s10">잔여 과제</a></li>
+  </ol>
+</div>
+
+<!-- ============ 1 ============ -->
+<h2 id="s1"><span class="num">1</span>프로젝트 개요와 결과</h2>
+<p>
+  <strong>대상:</strong> 랑그릿사 I&amp;II 드라마틱 에디션(세가 새턴, 일본판). 한 디스크에 1편(Ep1)과 2편(Ep2)이
+  들어 있는 합본으로, 텍스트 엔진은 두 편이 거의 동일하고 데이터 파일(<code>LANG1.*</code> / <code>LANG2.*</code>)만
+  분리돼 있습니다.
+</p>
+<p>
+  <strong>목표:</strong> 원본 게임 엔진을 개조하지 않고(=크래시 위험 최소화), <strong>데이터 패치와 최소 바이트 패치만으로</strong>
+  게임 내 모든 텍스트를 한글로 렌더합니다. 번역 기준은 스팀 리메이크판(공식 한글)의 어조·용어입니다.
+</p>
+
+<h3>현재 결과 상태</h3>
+<table>
+  <tr><th>영역</th><th>Ep1</th><th>Ep2</th><th>상태</th></tr>
+  <tr><td>스토리 대사</td><td>1,282줄 (100%)</td><td>13,288줄 (100%)</td><td><span class="tag done">완료·검증</span></td></tr>
+  <tr><td>맵 나레이션 / 승패조건</td><td>완료</td><td>97블록 / 102블록</td><td><span class="tag done">완료·검증</span></td></tr>
+  <tr><td>아이템명·설명문</td><td>1,721곳</td><td>8,200곳</td><td><span class="tag done">완료·검증</span></td></tr>
+  <tr><td>병종(클래스)명</td><td>완료</td><td>129병종</td><td><span class="tag done">완료·검증</span></td></tr>
+  <tr><td>지명·인명·공식용어</td><td>6,932곳+</td><td>완료</td><td><span class="tag done">완료·검증</span></td></tr>
+  <tr><td>로드/세이브 창</td><td>완료</td><td>"N장" + UI</td><td><span class="tag done">완료·검증</span></td></tr>
+  <tr><td>배틀 HUD 하단바 / 복합 그래픽 버튼</td><td colspan="2">일부 잔존</td><td><span class="tag wip">진행 중</span></td></tr>
+</table>
+<p class="muted">통합 디스크 기준: LANG1_SCEN 84%, LANG2_SCEN 64%가 원본 대비 변경됨(양 에피소드 한글 데이터 공존). 모든 빌드는 SCEN 크기 불변(제자리 패치).</p>
+
+<!-- ============ 2 ============ -->
+<h2 id="s2"><span class="num">2</span>개발 환경</h2>
+<ul>
+  <li><strong>빌드 툴체인:</strong> Python 3.14 + Pillow 12. 전 과정이 순수 파이썬 스크립트(<code>scripts/</code>).</li>
+  <li><strong>폰트:</strong> Neo둥근모(<code>neodgm.ttf</code>, OFL 라이선스, 재배포 가능) — 16px 저해상도 가독성 우수.</li>
+  <li><strong>에뮬레이터/디버거:</strong> Mednafen 포크(Saturn, <code>--enable-debugger</code>) + 자체 제작 <strong>emucap</strong>
+      MCP 제어 도구(Rust). 실행 중인 새턴 RAM·VRAM·레지스터를 라이브로 읽고 쓰며 브레이크포인트·세이브스테이트를 제어.</li>
+  <li><strong>플랫폼:</strong> 리눅스 네이티브(WSL 아님). 원본 ROM은 Track1 SHA-1로 무결성 검증.</li>
+</ul>
+
+<!-- ============ 3 ============ -->
+<h2 id="s3"><span class="num">3</span>텍스트 엔진 역공학</h2>
+
+<h3>3.1 인코딩과 폰트</h3>
+<p>본문 텍스트는 <strong>Shift-JIS</strong>입니다(타일 인덱스 커스텀 인코딩이 아님). 폰트 <code>FONT.DAT</code>는 비압축
+1bpp 16×16 글리프를 <strong>JIS 코드 순서</strong>로 7개 블록에 담습니다:</p>
+<table>
+  <tr><th>블록</th><th>글리프 수</th><th>내용</th></tr>
+  <tr><td>0~3</td><td>~500</td><td>기호·구두점·숫자·영문·히라가나·가타카나</td></tr>
+  <tr><td>4</td><td>4,418</td><td>JIS 한자(레벨1+2) — <strong>한글 재할당의 주 대상</strong></td></tr>
+  <tr><td>5</td><td>1,978</td><td>추가 한자/외자</td></tr>
+</table>
+<p>게임은 SJIS 코드를 표준 JIS 구·점으로 변환해 폰트 시트를 직접 인덱싱합니다(별도 커스텀 룩업 없음). 이 규칙이
+확정돼 있어, 한글 글리프를 한자 슬롯에 넣고 그 SJIS 코드로 인코딩하면 <strong>엔진 무수정으로</strong> 한글이 렌더됩니다.</p>
+
+<h3>3.2 SCEN.DAT — 재귀 오프셋 트리</h3>
+<p><code>SCEN.DAT</code>는 <strong>재귀적인 32비트 빅엔디안 오프셋 테이블 트리</strong> + SJIS 문자열입니다. 대사·나레이션·조건·UI가
+모두 이 안의 리프(leaf) 노드에 들어 있습니다. 무손실 파서/리패커(<code>scen_tool.py</code>, <code>scen_repack.py</code>)를
+구현했고 라운드트립 테스트를 통과합니다.</p>
+
+<h3>3.3 제어코드</h3>
+<p>텍스트 스트림 안의 &lt;0x0A 값은 제어코드입니다(정적 빈도 통계 + 최소 대립쌍으로 규명):</p>
+<table>
+  <tr><th>코드</th><th>의미</th><th>번역 처리</th></tr>
+  <tr><td><code>[NAME:XX]</code> (09 XX)</td><td>캐릭터 이름 변수 삽입</td><td>반드시 보존</td></tr>
+  <tr><td><code>{04:XX}</code></td><td>MTE 압축(일본어 어미/단어 확장, 201종)</td><td><strong>버림</strong>(한글은 전문 작성)</td></tr>
+  <tr><td><code>{06}{07}</code></td><td>대화창/페이지 전환</td><td>보존·활용</td></tr>
+  <tr><td><code>{08}</code> / <code>{02}</code></td><td>창 내 줄바꿈</td><td>보존</td></tr>
+  <tr><td><code>{01}</code></td><td>(원본 미사용) → <strong>반각 공백으로 재활용</strong></td><td>5장 참조</td></tr>
+</table>
+<p class="muted">이름 테이블은 <code>LANG1_SCEN.DAT @0x1407</code>의 NUL 구분 배열(52명 전량 추출). <code>[NAME:XX]</code> 인덱스가 이 순서에 대응합니다.</p>
+
+<div class="note">
+  <strong>핵심 함의:</strong> 원본은 <code>{04}</code> MTE로 일본어를 압축해 저장하지만, 한글은 이 압축을 쓸 수 없어
+  <strong>번역문이 원문보다 길어지기 쉽습니다.</strong> 그런데 패치는 파일을 늘릴 수 없는 <strong>제자리(in-place) 바이트 예산</strong>을
+  지켜야 합니다. 이 긴장이 5장의 여러 기법(반각 공백·페이지 넘김·한글 MTE·정렬보존 리빌드)을 낳은 근본 원인입니다.
+</div>
+
+<!-- ============ 4 ============ -->
+<h2 id="s4"><span class="num">4</span>한글 폰트·인코딩 설계</h2>
+
+<h3>4.1 한자코드 재할당 (완성형)</h3>
+<p>
+  KS X 1001 완성형 음절을 한자 블록[4]/[5]의 빈/저빈도 슬롯에 배치합니다(<code>kr_encoding.py</code>).
+  번역 코퍼스에서 실제 쓰이는 고유 음절만 빈도순으로 수집해 <strong>동적으로 코드를 배정</strong>(<code>build_table()</code>)하고,
+  Neo둥근모 글리프를 그 슬롯에 굽습니다(<code>patch_font()</code>). 필요 음절 ≤2,350 &lt; 공급 6,396 슬롯이라 병목이 없습니다.
+</p>
+
+<h3>4.2 좌우 절반 스왑 (필수 보정)</h3>
+<p>
+  게임의 16×16 렌더러는 글리프의 <strong>왼쪽 8px과 오른쪽 8px 절반을 스왑</strong>해 읽습니다(원본 폰트가 스왑 저장돼
+  있어 렌더러가 되돌리는 구조). 이를 모르고 구우면 "데 → ㅔㄷ"처럼 자·모가 좌우로 어긋나 깨집니다. 따라서 한글 글리프를
+  구울 때 각 행의 좌8px·우8px 바이트를 미리 서로 바꿔 저장합니다(<code>SWAP_HALVES</code>).
+</p>
+
+<h3>4.3 한글 MTE 압축</h3>
+<p>
+  일본어 MTE 사전 슬롯(죽은 슬롯)에 자주 쓰이는 한글 조각을 심어 대사를 압축하는 <code>kr_mte.py</code>를 구현했습니다.
+  바이트 예산이 빡빡한 블록을 이 방식으로 해소합니다.
+</p>
+
+<!-- ============ 5 ============ -->
+<h2 id="s5"><span class="num">5</span>렌더링 제약 우회 핵심 기법</h2>
+<p class="muted">
+  이 게임의 두 벽 — <em class="k">① 16px 고정폭 렌더</em>(반각 경로 없음)와 <em class="k">② 늘릴 수 없는 바이트 예산</em> —
+  을 <strong>코드 훅 없이(데이터 또는 최소 패치만으로)</strong> 우회한 방법들입니다. 극도로 packed된 이 게임에서 상주 코드훅은
+  어느 위치든 크래시하기 때문에, "게임이 이미 가진 경로를 재활용"하는 것이 전 기법의 공통 전략입니다.
+</p>
+
+<!-- 5.1 -->
+<div class="card">
+  <h3>5.1 공백을 반각(8px)으로 만드는 방법</h3>
+  <p><span class="tag">문제</span> 단어 사이 띄어쓰기를 전각 공백으로 넣으면 <strong>공백 하나당 16px</strong>을 소모합니다.
+  좁은 대화창(가로 14칸)에서는 이 낭비가 커, 한 줄에 들어갈 글자 수가 크게 줄어듭니다.</p>
+
+  <p><span class="tag">해법</span> 대사에서 실제로 쓰이지 않는 제어코드 <code>{01}</code>을 "반각 전진" 용도로 재활용했습니다.
+  렌더러에 <strong>18바이트짜리 최소 패치</strong>를 넣어, <code>{01}</code>을 만나면 커서 좌표 변수를
+  <strong>딱 한 타일(+8px)만 전진</strong>시키도록 했습니다(글자는 안 그리고 위치만 이동).</p>
+
+  <table>
+    <tr><th>항목</th><th>내용</th></tr>
+    <tr><td>재활용한 코드</td><td><code>{01}</code> — 원본 대사에서 미사용</td></tr>
+    <tr><td>렌더러 패치 위치</td><td>LANG1.BIN <code>0x1b1fe</code> (Ep2는 LANG2.BIN <code>0x1cee6</code>), 18바이트</td></tr>
+    <tr><td>동작</td><td><code>{01}</code> → 커서 변수 <code>[0x0609ab44]</code>/<code>[0x0609ab4c]</code>에 +8px(한 타일)</td></tr>
+    <tr><td>텍스트 처리</td><td>번역문의 <strong>모든 일반 공백을 <code>{01}</code>로 치환</strong></td></tr>
+  </table>
+  <pre><code>return out.replace(' ', '{01}')   # 공백 하나가 16px → 8px</code></pre>
+
+  <div class="note">
+    <strong>왜 코드 훅이 아니라 18바이트 패치인가:</strong> 실행 코드가 극도로 빽빽하게 채워져 있어 상주 코드 훅을 넣을
+    빈 공간이 사실상 없습니다(빈 영역 대부분이 게임 진행 중 스크래치로 재사용됨 → 훅 넣으면 크래시). 그래서 기존 렌더러
+    분기 안의 미사용 코드 자리에 딱 맞는 18바이트만 덮어써 안전하게 반각 전진을 구현했습니다.
+  </div>
+</div>
+
+<!-- 5.2 -->
+<div class="card">
+  <h3>5.2 페이지를 넘겨가며 써서 길이 제약을 줄이는 방법</h3>
+  <p><span class="tag">문제</span> 대화창은 <strong>가로 14칸 × 세로 3줄 = 한 페이지</strong>가 물리적 한계입니다.
+  한글 번역문은 원문보다 길어지기 쉬운데, 한 페이지에 욱여넣으면 화면 밖으로 넘치거나 바이트 예산을 초과합니다.</p>
+
+  <p><span class="tag">해법</span> 게임이 원래 극적 연출용으로 쓰던 <strong>페이지 전환 제어코드 <code>{06}{07}</code></strong>
+  (원본에 약 640회 등장)를 번역문에도 적극 삽입했습니다. 긴 문장을 문장 경계에서 끊어 <strong>다음 페이지로 이어 쓰면</strong>,
+  "한 페이지 = 3줄" 제약이 사실상 풀립니다. 번역자는 의미 단위로 <code>{06}{07}</code>만 넣고, <code>render()</code>가 나머지 포맷팅을 자동 처리합니다:</p>
+
+  <pre><code>WIDTH = 14                          # 한 줄 14칸
+
+def render(kr):
+    pages = kr.split('{06}{07}')     # ① 번역자가 넣은 페이지 경계로 분할
+    out_pages = []
+    for p in pages:
+        lines  = wrap_page(p)        # ② 14칸 기준 단어 단위 줄바꿈
+        chunks = [lines[i:i+3] for i in range(0, len(lines), 3)]  # ③ 3줄씩 페이지로
+        for ch in chunks:
+            body  = '{08}'.join(ch)  # ④ 창 안 줄바꿈은 {08}
+            first = (len(out_pages) == 0)
+            # ⑤ 이어지는 페이지 첫 줄엔 빈 줄 보정(　{08})
+            out_pages.append(body if first else '　{08}' + body)
+    out = '{06}{07}'.join(out_pages)
+    return out.replace(' ', '{01}')  # ⑥ 공백은 반각(5.1)</code></pre>
+
+  <table>
+    <tr><th>제어코드</th><th>역할</th></tr>
+    <tr><td><code>{06}{07}</code></td><td>대화창/페이지 전환 (버튼 눌러 다음 페이지)</td></tr>
+    <tr><td><code>{08}</code></td><td>창 안에서 줄바꿈 (한 페이지 내 1→2→3줄)</td></tr>
+    <tr><td><code>　{08}</code></td><td>이어지는 페이지 첫 줄 빈 줄 보정(연출 정렬용)</td></tr>
+    <tr><td><code>{01}</code></td><td>반각 띄어쓰기 (5.1)</td></tr>
+  </table>
+
+  <p>실제 예시 — 원문 한 덩어리를 두 페이지로 흐르게:</p>
+  <pre><code>"놀라시는 것도 당연합니다.{06}{07}이 근방은 도적이 많아 무척 위험하니까요."
+ └─ 1페이지 ──────────────┘         └─ 2페이지로 이어짐 ──────────┘</code></pre>
+
+  <div class="note">
+    <strong>핵심:</strong> "한 창에 다 넣겠다"가 아니라 <strong>"넘겨가며 나눠 쓴다"</strong>로 발상을 바꾼 것이 포인트입니다.
+    페이지 추가는 바이트 예산 안에서 제어코드 몇 개만 더하면 되므로, 파일 크기를 그대로 두면서 길이 제약을 사실상 무력화합니다.
+  </div>
+</div>
+
+<!-- 5.3 -->
+<div class="card">
+  <h3>5.3 정렬보존 SCEN 리빌드</h3>
+  <p>번역으로 리프 길이가 바뀌어도 <strong>SCEN 총 크기를 불변</strong>으로 유지하는 리빌더(<code>rebuild_scen_with</code>)입니다.
+  최상위 블록을 고정 정렬 오프셋에 두고, 각 블록의 <code>0x00</code> 패딩 리프로 성장/축소를 흡수합니다. 덕분에
+  디스크 LBA 재배치 없이 <strong>제자리(in-place) 덮어쓰기</strong>가 가능합니다(Ep1 SCEN 659,456B / Ep2 4,517,888B 고정).</p>
+</div>
+
+<!-- ============ 6 ============ -->
+<h2 id="s6"><span class="num">6</span>번역 파이프라인</h2>
+
+<h3>6.1 번역 기준 (스팀판)</h3>
+<p>대사·나레이션·승패조건·제목·고유명사는 <strong>스팀 리메이크판(공식 한글)</strong>의 어조·용어를 기준으로 채택·재번역합니다.
+참고자료는 스팀 대사 18,271행 TSV. 주요 규칙:</p>
+<ul>
+  <li>정확히 일치하는 대사는 스팀 KR 그대로 채택, 미일치분은 스팀 어조로 새로 번역.</li>
+  <li>바이트 예산으로 줄일 때도 어조를 살려 자연스럽게 축약.</li>
+  <li>문단이 안 바뀌면 줄을 최대한 채운다(그리디 워드랩이 자동 보장).</li>
+  <li>전각 구두점(。、！？…) 뒤에는 공백을 넣지 않는다(구두점 자체에 여백 포함).</li>
+  <li>고유명사·지명·인명은 스팀 기준으로 통일. 캐릭터 메이킹 퀴즈만 별도 공략 참고.</li>
+</ul>
+
+<h3>6.2 처리 흐름</h3>
+<div class="flow">
+원본 SCEN 추출 → MTE 전개(mte_expand) → 스팀 정확매치 채택(steam_adopt) → 퍼지매치(≥0.95) → 미매치 병렬 워크플로 재번역 → render() 조판(14칸·페이지·반각공백) → 정렬보존 리빌드 → 디스크 in-place 기록
+</div>
+<p class="muted">
+  번역문은 <strong>flat 텍스트</strong>(어절 공백만)로 두고 조판(<code>render()</code>)이 워드랩·페이지·<code>{01}</code>·<code>{08}</code>를
+  자동 삽입 — 번역과 조판을 분리해 규칙 변경 시 일괄 재조판이 가능합니다.
+</p>
+
+<!-- ============ 7 ============ -->
+<h2 id="s7"><span class="num">7</span>한글화 완료 범위 (전체 목록)</h2>
+
+<h3>7.1 스토리 · 서사</h3>
+<table>
+  <tr><th>항목</th><th>내용</th><th>규모</th></tr>
+  <tr><td>스토리 대사</td><td>인트로·튜토리얼·1~20장 전 대사. [NAME] 토큰·페이지 연출 보존</td><td>Ep1 1,282 / Ep2 13,288줄</td></tr>
+  <tr><td>맵 나레이션</td><td>각 시나리오 도입 서사(3인칭 서사체). 헤더 번호 배선 보존</td><td>Ep2 97블록</td></tr>
+  <tr><td>승패조건 패널</td><td>＊승리조건 / ＊패배조건. 규칙기반 번역기(cond_translate), 13칸 불릿</td><td>Ep2 102블록 / 516문자열</td></tr>
+  <tr><td>여신 퀴즈</td><td>캐릭터 성향 결정 문답(별도 공략 참고 번역)</td><td>Ep1 11문항 / Ep2 20문항</td></tr>
+  <tr><td>캐릭터 이름 테이블</td><td><code>[NAME:XX]</code>가 참조하는 시나리오별 복제 이름표 전부 한글화</td><td>52명</td></tr>
+</table>
+
+<h3>7.2 용어 · 고유명사</h3>
+<table>
+  <tr><th>항목</th><th>내용</th><th>규모</th></tr>
+  <tr><td>공식 용어</td><td>캐릭터·아이템·클래스·마법 공식 한글 용어 일괄 치환(NUL 완전일치만 치환해 대사 부분문자열 안전)</td><td>Ep1 775용어 / 6,932곳</td></tr>
+  <tr><td>지명</td><td>왕성·살라스·발디아 등 지명 통일</td><td>Ep1 27용어 / 376곳</td></tr>
+  <tr><td>시나리오 제목</td><td>왕성탈출·사령의숲·다르시스성 등(스팀 표기 기준)</td><td>19개</td></tr>
+  <tr><td>마법 용어</td><td>뮤트·레지스트·퀵·힐·파이어볼 등(양 에피소드 공통 역이식)</td><td>Ep2 646곳 역이식</td></tr>
+</table>
+
+<h3>7.3 아이템</h3>
+<table>
+  <tr><th>항목</th><th>내용</th><th>규모</th></tr>
+  <tr><td>아이템명</td><td>상점 구입/장비 리스트의 무기·방어구·소지품 이름</td><td>양 편 공통</td></tr>
+  <tr><td>아이템 설명문</td><td>33개 설명 + 16개 스탯라인. <strong>단어(띄어쓰기) 경계 줄바꿈</strong>(wordfill)으로 단어 중간이 안 잘리게 조판. 원본 하드랩 줄별 고정 렌더라 슬롯이 짧은 8개는 문구를 다듬어 맞춤</td><td>Ep1 1,721곳 / Ep2 8,200곳</td></tr>
+</table>
+<p class="muted">실기 검증: 장비 화면 "여행자용 호신용 나이프"가 한 줄에 온전히 렌더됨(구 글자단위 조판이면 "…나이/프。"로 분할되던 것 해결).</p>
+
+<h3>7.4 병종(클래스)명 — 전투 준비/정보 화면</h3>
+<p>병종명은 압축 이미지가 아니라 <strong>반각 카타카나 텍스트 + 변환 테이블</strong>임을 라이브 디버깅으로 규명했습니다.
+(검증: 테이블의 <code>ｸﾞﾗﾃﾞｨｴｰﾀｰ</code> 자리를 <code>ﾀﾏﾈｷﾞｰ</code>로 덮었더니 화면 병종명이 그대로 바뀜.) 렌더 경로:</p>
+<div class="flow">반각 카타카나 문자열 → 변환기(idx=(byte+0x60)&amp;0xFF → 2B BE SJIS) → 표준 텍스트 엔진 + FONT.DAT(한글 폰트) → 화면</div>
+<p>코드 훅 없이 <strong>데이터 세 곳만</strong> 다시 씁니다(<code>gen_classnames</code>):</p>
+<table>
+  <tr><th>데이터</th><th>위치(LANG2.BIN)</th><th>처리</th></tr>
+  <tr><td>병종명 문자열 테이블</td><td>≈ <code>0x62218</code></td><td>카타카나 → <strong>한글 인덱스 바이트</strong>로 교체</td></tr>
+  <tr><td>포인터 테이블</td><td><code>0x619dc</code></td><td>새 한글 문자열 주소로 재지정</td></tr>
+  <tr><td>변환 테이블</td><td><code>0x6388c</code></td><td>인덱스 → <strong>한글 전각 SJIS 코드</strong>로 재작성(빈 공간으로 이전)</td></tr>
+</table>
+<p>변환기가 한글 인덱스 바이트를 한글 SJIS 코드로 바꾸고, 기존 텍스트 엔진이 그 코드를 FONT.DAT의 한글 글리프로 렌더합니다.
+실기 검증: 유닛 정보 패널의 <code>엘윈 / 워록 / 보병</code> 클린 한글 렌더 확인(Ep2 129병종 / 142음절).</p>
+<div class="note">
+  <strong>참고 — 왜 SCEN 치환이 안 먹혔나:</strong> 초기에 SCEN.DAT의 클래스명을 2만여 건 치환했는데 화면에 반영되지 않았습니다.
+  렌더 소스가 SCEN이 아니라 바로 이 반각 카타카나 테이블이었기 때문입니다. "어디서 읽어 그리는지"를 라이브로 특정한 것이 결정적이었습니다.
+</div>
+
+<h3>7.5 시스템 UI · 로드/세이브 창</h3>
+<table>
+  <tr><th>항목</th><th>내용</th></tr>
+  <tr><td>시스템 UI 용어</td><td>튜토리얼·전투 프롬프트·저장/로드 확인 등(Ep1 완료, Ep2 ui_terms 98개 병합)</td></tr>
+  <tr><td>로드창 시나리오 제목</td><td>"N장" + 한글 장 글리프로 클린 렌더(8장 참조)</td></tr>
+  <tr><td>로드창 시스템 메시지</td><td>이어하기 / 데이터　없음 / 데이터　손상(LANG2.BIN 원시 SJIS 인플레이스 치환)</td></tr>
+  <tr><td>배틀 UI 메시지(Ep1)</td><td>구입·판매·장비·버리기·고용·클래스체인지 등. 받침 의존 조사 문제는 <strong>조사 생략</strong>으로 문법 정상화</td></tr>
+</table>
+
+<div class="note">
+  <strong>조사 처리 노하우:</strong> 동적 <code>{02}</code>(아이템/이름) 뒤에 고정 조사(을/를·은/는·로/으로)를 붙이면 받침 유무에 따라
+  "나이프을 → 를"처럼 틀립니다. 한국어는 받침 의존 조사를 동적으로 못 고르므로, UI 문맥에서 자연스러운 선에서 <strong>조사를 생략</strong>해
+  문법 오류를 없앴습니다.
+</div>
+
+<!-- ============ 8 ============ -->
+<h2 id="s8"><span class="num">8</span>특수 사례 — 로드창 시나리오 제목</h2>
+<p>
+  로드/세이브 창의 시나리오 제목("서장" 등)이 깨진 세로줄(dither)로 나오는 난제가 있었습니다. 대사·정보패널 폰트 경로와
+  <strong>별개의 프론트엔드 렌더 경로</strong>를 쓰기 때문으로, 라이브 디스어셈블·브레이크포인트·레지스터 추적으로 근본 원인을
+  규명했습니다.
+</p>
+<h3>근본 원인 (2층 구조)</h3>
+<ol>
+  <li><strong>파싱 붕괴:</strong> 로드창 템플릿은 <code>面{01}0e【{02}】</code> 형태인데, 원본 <code>{01}</code>은 "소스 1바이트 소비" 핸들러입니다.
+  KR 빌드가 <code>{01}</code>을 <strong>반각 공백(소스 미소비)</strong>으로 패치하면서(5.1) 템플릿의 <code>0e</code>가 문자로 누출돼 dither가 발생.</li>
+  <li><strong>동적 제목 재귀 렌더 크래시:</strong> <code>{02}</code>(제목 삽입) 핸들러가 참조하는 레지던트 제목 구조가 불투명해
+  빌드 측 데이터 수정으로는 안정적으로 고칠 수 없음(재귀 렌더가 오정렬 포인터로 폭주 크래시).</li>
+</ol>
+<h3>배송한 해결 (데이터-only)</h3>
+<p>
+  크래시하는 동적 제목 템플릿을 버리고, 템플릿 A/B를 <code>{03}</code>(시나리오 <strong>번호</strong>, 세이브별 정확) + <code>장</code>(한글 직접 글리프)로
+  교체했습니다. 결과적으로 로드창이 <strong>"N장"</strong>을 dither·크래시 없이 클린 한글로 렌더합니다(콜드부트 검증 완료).
+  실제 시나리오명 표시는 프론트엔드 재구조화 역공학이 필요해 트레이드오프로 남겼습니다.
+</p>
+
+<!-- ============ 9 ============ -->
+<h2 id="s9"><span class="num">9</span>검증 방법론</h2>
+<ul>
+  <li><strong>라이브 RAM 검증:</strong> emucap으로 실행 중 RAM/VRAM에 글리프·문자열을 직접 write해 화면 변화를 관찰 →
+  "어느 데이터가 어느 화면을 그리는지"를 실증(병종명 테이블·변환기 위치 등이 이렇게 확정됨).</li>
+  <li><strong>콜드부트 검증:</strong> 재빌드 후에는 반드시 에뮬레이터를 완전 재기동(PID kill + launch)해 검증합니다.
+  <code>reset</code>은 로드된 게임을 유지하고, 세이브스테이트는 재빌드 시 폰트 슬롯이 어긋나 스테일 아티팩트를 유발하므로
+  <strong>콜드부트 픽셀 검증</strong>이 정본입니다.</li>
+  <li><strong>세이브 데이터 키잉 주의:</strong> Mednafen 백업RAM은 디스크 콘텐츠 해시별로 분리 저장돼, 재빌드하면 해시가 바뀌어
+  세이브가 사라집니다. 로드창 검증 시 옛 세이브를 새 디스크 해시 파일명으로 복사해 주입합니다.</li>
+  <li><strong>레이어 격리:</strong> VDP1 스프라이트 / VDP2 NBG 레이어를 토글해 텍스트가 어느 하드웨어 레이어에 그려지는지 특정.</li>
+</ul>
+
+<!-- ============ 10 ============ -->
+<h2 id="s10"><span class="num">10</span>잔여 과제</h2>
+<table>
+  <tr><th>항목</th><th>상태 / 원인</th></tr>
+  <tr><td>배틀 HUD 하단 상태바(병종·캐릭터명)</td><td>병종명 변환기를 안 거치는 <strong>별도 렌더 경로</strong>(별도 반각 카타카나 이름 테이블). 전용 변환기 역공학 필요</td></tr>
+  <tr><td>복합 kanji 메뉴 버튼(兵士配属·出撃 등)</td><td>텍스트가 아닌 <strong>압축 그래픽(IMG.DAT c001)</strong>. LZSS 아닌 커스텀 압축이라 크랙 필요</td></tr>
+  <tr><td>Ep2 배틀 UI 메시지(구입/장비/판매…)</td><td>대부분 MTE 인코딩이라 리터럴 치환 미매칭. 블록 정렬 초과로 역이식 보류(pad 확보 RE 필요)</td></tr>
+  <tr><td>로드창 실제 시나리오명</td><td>"N장"으로 대체 배송. 동적 제목 복원은 프론트엔드 재구조화 RE 필요</td></tr>
+  <tr><td>8x8 스탯 라벨(지휘범위·수정 등)</td><td>일부 장식 폰트(NBG) 경로. 상주 코드훅은 크래시라 데이터 경로 재조사 필요</td></tr>
+</table>
+
+<footer>
+  <p>
+    <strong>전체 관통 원칙:</strong> 렌더러/코드를 새로 짜지 않고, 게임이 이미 갖고 있는 SJIS→글리프 경로·제어코드·변환 테이블을
+    재활용해 <strong>데이터 또는 최소 바이트 패치만으로</strong> 한글을 넣는다. 이것이 극도로 packed된 이 게임에서 상주 코드훅
+    크래시를 피하면서 대사·나레이션·조건·아이템·병종·UI 전반을 안정적으로 한글화할 수 있었던 핵심이다.
+  </p>
+</footer>
+
+</body>
+</html>

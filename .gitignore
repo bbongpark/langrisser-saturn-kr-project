@@ -1,0 +1,36 @@
+# 원본은 별도 비공개 저장소에서 관리
+Langrisser - Dramatic Edition (Japan) (1M)/
+*/original/
+*.bin
+*.BIN
+*.dat
+*.DAT
+*.cue
+!1.3V 패치/**/*.cue
+
+# 다시 만들 수 있는 제작 결과; 번역 정본은 예외
+**/build/**
+!한글화/build/
+!한글화/build/worksheet_dedup_final.json
+!한글화/build/classnames.json
+!한글화/build/steam_charnames.json
+!한글화/build/steam_glossary.json
+*.backup_*.json
+*backup*.json
+
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.claude/
+.env
+.env.*
+*.pem
+*.key
+.git-credentials
+*.state
+*.bkr
+
+# 새 CHD는 최신 완성본 폴더에서만 저장
+*.chd
+!1.3V/*.chd

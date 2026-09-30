@@ -1,0 +1,18 @@
+{
+  "translation": "effc8b0035a606d2ab52d2a5607dac2d3f8b1078dafaac32fa759eac8d6ed140",
+  "old_translation": "effc8b0035a606d2ab52d2a5607dac2d3f8b1078dafaac32fa759eac8d6ed140",
+  "modification": "b5919065c06e14eb169dc5a6d9cf97a92559c312d4b41f4d736cd70921bfe55e",
+  "old_v12": "b5919065c06e14eb169dc5a6d9cf97a92559c312d4b41f4d736cd70921bfe55e",
+  "date": "2026-09-15",
+  "translation_rebuild": "passed",
+  "mod_rebuild": "passed",
+  "translation_layout": "no overflow",
+  "goddess_layout": "1935/1935",
+  "name_particles": "0 corrections",
+  "unit_tests": 4,
+  "stale_translation_rejected": true,
+  "outputs_unchanged_after_rejected_build": true,
+  "tracks_2_to_6_equal_original": true,
+  "no_shared_output_hardlinks": true,
+  "new_chd_created": false
+}

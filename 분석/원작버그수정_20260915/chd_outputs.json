@@ -1,0 +1,22 @@
+[
+  {
+    "project": "한글화",
+    "chd": "F:\\TeraBoxDownload\\Lang KR rom edit\\한글화\\build\\Langrisser_KR_20260915.chd",
+    "bytes": 463542550,
+    "sha256": "8c8051d0f9d7a8a1d4d4db7e7acced7476407e8515e6566c3fe649b52e5d68ca",
+    "input_cue": "F:\\TeraBoxDownload\\Lang KR rom edit\\한글화\\build\\disc-krpoc\\langrisser-krpoc.cue",
+    "chdman_verify": "passed",
+    "contains_original_bugfixes": true,
+    "contains_crown_shop_mods": false
+  },
+  {
+    "project": "개조",
+    "chd": "F:\\TeraBoxDownload\\Lang KR rom edit\\개조\\build\\Langrisser_KR_Mod_20260915.chd",
+    "bytes": 463542560,
+    "sha256": "84d70a13d25fe1d0ec7e7a7c2173bfdff69c8bdc76fff8dba50a141b115fa9bd",
+    "input_cue": "F:\\TeraBoxDownload\\Lang KR rom edit\\개조\\build\\disc-mod\\langrisser-mod.cue",
+    "chdman_verify": "passed",
+    "contains_original_bugfixes": true,
+    "contains_crown_shop_mods": true
+  }
+]

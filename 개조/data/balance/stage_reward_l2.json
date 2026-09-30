@@ -1,0 +1,554 @@
+[
+ {
+  "index": 0,
+  "gold_x10": 35,
+  "gold_display": 350,
+  "exp": 9
+ },
+ {
+  "index": 1,
+  "gold_x10": 25,
+  "gold_display": 250,
+  "exp": 10
+ },
+ {
+  "index": 2,
+  "gold_x10": 35,
+  "gold_display": 350,
+  "exp": 10
+ },
+ {
+  "index": 3,
+  "gold_x10": 40,
+  "gold_display": 400,
+  "exp": 10
+ },
+ {
+  "index": 4,
+  "gold_x10": 60,
+  "gold_display": 600,
+  "exp": 12
+ },
+ {
+  "index": 5,
+  "gold_x10": 60,
+  "gold_display": 600,
+  "exp": 12
+ },
+ {
+  "index": 6,
+  "gold_x10": 80,
+  "gold_display": 800,
+  "exp": 14
+ },
+ {
+  "index": 7,
+  "gold_x10": 120,
+  "gold_display": 1200,
+  "exp": 12
+ },
+ {
+  "index": 8,
+  "gold_x10": 180,
+  "gold_display": 1800,
+  "exp": 15
+ },
+ {
+  "index": 9,
+  "gold_x10": 180,
+  "gold_display": 1800,
+  "exp": 15
+ },
+ {
+  "index": 10,
+  "gold_x10": 220,
+  "gold_display": 2200,
+  "exp": 15
+ },
+ {
+  "index": 11,
+  "gold_x10": 230,
+  "gold_display": 2300,
+  "exp": 15
+ },
+ {
+  "index": 12,
+  "gold_x10": 240,
+  "gold_display": 2400,
+  "exp": 18
+ },
+ {
+  "index": 13,
+  "gold_x10": 250,
+  "gold_display": 2500,
+  "exp": 15
+ },
+ {
+  "index": 14,
+  "gold_x10": 250,
+  "gold_display": 2500,
+  "exp": 18
+ },
+ {
+  "index": 15,
+  "gold_x10": 200,
+  "gold_display": 2000,
+  "exp": 18
+ },
+ {
+  "index": 16,
+  "gold_x10": 140,
+  "gold_display": 1400,
+  "exp": 10
+ },
+ {
+  "index": 17,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 18,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 19,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 20,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 21,
+  "gold_x10": 180,
+  "gold_display": 1800,
+  "exp": 10
+ },
+ {
+  "index": 22,
+  "gold_x10": 100,
+  "gold_display": 1000,
+  "exp": 10
+ },
+ {
+  "index": 23,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 24,
+  "gold_x10": 250,
+  "gold_display": 2500,
+  "exp": 15
+ },
+ {
+  "index": 25,
+  "gold_x10": 250,
+  "gold_display": 2500,
+  "exp": 18
+ },
+ {
+  "index": 26,
+  "gold_x10": 200,
+  "gold_display": 2000,
+  "exp": 18
+ },
+ {
+  "index": 27,
+  "gold_x10": 250,
+  "gold_display": 2500,
+  "exp": 20
+ },
+ {
+  "index": 28,
+  "gold_x10": 220,
+  "gold_display": 2200,
+  "exp": 21
+ },
+ {
+  "index": 29,
+  "gold_x10": 140,
+  "gold_display": 1400,
+  "exp": 20
+ },
+ {
+  "index": 30,
+  "gold_x10": 100,
+  "gold_display": 1000,
+  "exp": 10
+ },
+ {
+  "index": 31,
+  "gold_x10": 100,
+  "gold_display": 1000,
+  "exp": 10
+ },
+ {
+  "index": 32,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 33,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 34,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 35,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 36,
+  "gold_x10": 50,
+  "gold_display": 500,
+  "exp": 12
+ },
+ {
+  "index": 37,
+  "gold_x10": 80,
+  "gold_display": 800,
+  "exp": 13
+ },
+ {
+  "index": 38,
+  "gold_x10": 100,
+  "gold_display": 1000,
+  "exp": 14
+ },
+ {
+  "index": 39,
+  "gold_x10": 110,
+  "gold_display": 1100,
+  "exp": 14
+ },
+ {
+  "index": 40,
+  "gold_x10": 170,
+  "gold_display": 1700,
+  "exp": 14
+ },
+ {
+  "index": 41,
+  "gold_x10": 180,
+  "gold_display": 1800,
+  "exp": 17
+ },
+ {
+  "index": 42,
+  "gold_x10": 170,
+  "gold_display": 1700,
+  "exp": 14
+ },
+ {
+  "index": 43,
+  "gold_x10": 170,
+  "gold_display": 1700,
+  "exp": 17
+ },
+ {
+  "index": 44,
+  "gold_x10": 170,
+  "gold_display": 1700,
+  "exp": 17
+ },
+ {
+  "index": 45,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 46,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 47,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 48,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 49,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 50,
+  "gold_x10": 120,
+  "gold_display": 1200,
+  "exp": 19
+ },
+ {
+  "index": 51,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 52,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 53,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 54,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 55,
+  "gold_x10": 140,
+  "gold_display": 1400,
+  "exp": 14
+ },
+ {
+  "index": 56,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 7
+ },
+ {
+  "index": 57,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 4
+ },
+ {
+  "index": 58,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 4
+ },
+ {
+  "index": 59,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 0
+ },
+ {
+  "index": 60,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 10
+ },
+ {
+  "index": 61,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 10
+ },
+ {
+  "index": 62,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 10
+ },
+ {
+  "index": 63,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 10
+ },
+ {
+  "index": 64,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 65,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 0
+ },
+ {
+  "index": 66,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 0
+ },
+ {
+  "index": 67,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 0
+ },
+ {
+  "index": 68,
+  "gold_x10": 150,
+  "gold_display": 1500,
+  "exp": 0
+ },
+ {
+  "index": 69,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 70,
+  "gold_x10": 80,
+  "gold_display": 800,
+  "exp": 2
+ },
+ {
+  "index": 71,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 4
+ },
+ {
+  "index": 72,
+  "gold_x10": 100,
+  "gold_display": 1000,
+  "exp": 4
+ },
+ {
+  "index": 73,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 74,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 75,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 19
+ },
+ {
+  "index": 76,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 77,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 78,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 79,
+  "gold_x10": 20,
+  "gold_display": 200,
+  "exp": 0
+ },
+ {
+  "index": 80,
+  "gold_x10": 170,
+  "gold_display": 1700,
+  "exp": 17
+ },
+ {
+  "index": 81,
+  "gold_x10": 230,
+  "gold_display": 2300,
+  "exp": 15
+ },
+ {
+  "index": 82,
+  "gold_x10": 240,
+  "gold_display": 2400,
+  "exp": 18
+ },
+ {
+  "index": 83,
+  "gold_x10": 250,
+  "gold_display": 2500,
+  "exp": 15
+ },
+ {
+  "index": 84,
+  "gold_x10": 250,
+  "gold_display": 2500,
+  "exp": 18
+ },
+ {
+  "index": 85,
+  "gold_x10": 200,
+  "gold_display": 2000,
+  "exp": 18
+ },
+ {
+  "index": 86,
+  "gold_x10": 140,
+  "gold_display": 1400,
+  "exp": 10
+ },
+ {
+  "index": 87,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 88,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 89,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 10
+ },
+ {
+  "index": 90,
+  "gold_x10": 0,
+  "gold_display": 0,
+  "exp": 0
+ },
+ {
+  "index": 91,
+  "gold_x10": 130,
+  "gold_display": 1300,
+  "exp": 15
+ }
+]

@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-30",
+  "original_setup_verified_files": 18,
+  "translation_rebuild": "passed",
+  "mod_rebuild": "passed",
+  "independent_full_track_comparison": "passed",
+  "translation_track_sha256": "fafa948819a2d9cdb2c7c96d39984a4758055c265e5a3deb170776fabb34c71c",
+  "mod_track_sha256": "3ee34e77b08a4ccb2a940a12d50e95f602bd40113e268d7283ac0e06ae2dd2d5",
+  "runtime_screen_test_for_current_profile": "not performed",
+  "included": "current inputs, scripts, fonts, docs, current 1.3V CHDs and distribution patches",
+  "excluded": "original assets (separate repository), previous builds, backups, obsolete mercenary feature tests, caches and local login settings"
+}

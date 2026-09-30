@@ -1,0 +1,1334 @@
+[
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 25,
+   "defense_bonus": 10
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 25,
+   "defense_bonus": 10
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 40,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 25,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 35,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 35,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 20,
+   "defense_bonus": 22
+  },
+  {
+   "attack_bonus": 20,
+   "defense_bonus": 22
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 15,
+   "defense_bonus": 20
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 25,
+   "defense_bonus": 10
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 25,
+   "defense_bonus": 10
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 10,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 25,
+   "defense_bonus": 10
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 25,
+   "defense_bonus": 10
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 5,
+   "defense_bonus": 5
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 20,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ],
+ [
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  },
+  {
+   "attack_bonus": 0,
+   "defense_bonus": 0
+  }
+ ]
+]

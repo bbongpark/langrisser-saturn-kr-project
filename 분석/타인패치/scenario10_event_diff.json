@@ -1,0 +1,9 @@
+[
+  {
+    "tag": "replace",
+    "original_offset": 1399,
+    "patched_offset": 1399,
+    "before": "c202",
+    "after": "7609"
+  }
+]

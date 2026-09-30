@@ -1,0 +1,263 @@
+{
+  "files": {
+    "original": {
+      "path": "F:\\TeraBoxDownload\\Lang KR rom edit\\Langrisser - Dramatic Edition (Japan) (1M)\\Langrisser - Dramatic Edition (Japan) (1M) (Track 1).bin",
+      "size": 392784000,
+      "sha256": "3a135dcb603e43836142d10df9104da398632035915549071b0fe0156d079797"
+    },
+    "third_party": {
+      "path": "F:\\TeraBoxDownload\\Lang KR rom edit\\분석\\타인패치\\patched-track1.bin",
+      "size": 392784000,
+      "sha256": "20979511da80f32dfdc69d34c3ecad062bc8aad61bddec2132bf8acde5d6fcc9"
+    },
+    "translation": {
+      "path": "F:\\TeraBoxDownload\\Lang KR rom edit\\한글화\\build\\disc-krpoc\\track1.bin",
+      "size": 392784000,
+      "sha256": "effc8b0035a606d2ab52d2a5607dac2d3f8b1078dafaac32fa759eac8d6ed140"
+    },
+    "mod": {
+      "path": "F:\\TeraBoxDownload\\Lang KR rom edit\\개조\\build\\disc-mod\\track1.bin",
+      "size": 392784000,
+      "sha256": "b5919065c06e14eb169dc5a6d9cf97a92559c312d4b41f4d736cd70921bfe55e"
+    }
+  },
+  "sites": {
+    "original": {
+      "retreat_condition": {
+        "file_offset": 52968,
+        "hex": "8f04"
+      },
+      "hire_add_function": {
+        "file_offset": 96452,
+        "hex": "2fe66ef3d305d206e1032212d10561126214602c61100314000b6ef60609c9f00609feb40609feb02fe66ef3d306d207e1032212d10662126124601c013c6220312c0314000b6ef60609c9f00609feb40609feb0"
+      },
+      "mercenary_range": {
+        "file_offset": 177134,
+        "hex": "e144"
+      },
+      "event_dispatch": {
+        "file_offset": 407600,
+        "hex": "060278c4060278ec"
+      }
+    },
+    "third_party": {
+      "retreat_condition": {
+        "file_offset": 52968,
+        "hex": "890d"
+      },
+      "hire_add_function": {
+        "file_offset": 96452,
+        "hex": "d10ce003110162126024600c6320d10a611271476110e2280127011ad207312c310c6210e003320789006203323c2120000b00090609feb00609cd940609c9c80000000000000000000000000000000000000000"
+      },
+      "mercenary_range": {
+        "file_offset": 177134,
+        "hex": "e146"
+      },
+      "event_dispatch": {
+        "file_offset": 407600,
+        "hex": "06072430060278c4"
+      }
+    },
+    "translation": {
+      "retreat_condition": {
+        "file_offset": 52968,
+        "hex": "8f04"
+      },
+      "hire_add_function": {
+        "file_offset": 96452,
+        "hex": "2fe66ef3d305d206e1032212d10561126214602c61100314000b6ef60609c9f00609feb40609feb02fe66ef3d306d207e1032212d10662126124601c013c6220312c0314000b6ef60609c9f00609feb40609feb0"
+      },
+      "mercenary_range": {
+        "file_offset": 177134,
+        "hex": "e144"
+      },
+      "event_dispatch": {
+        "file_offset": 407600,
+        "hex": "060278c4060278ec"
+      }
+    },
+    "mod": {
+      "retreat_condition": {
+        "file_offset": 52968,
+        "hex": "8f04"
+      },
+      "hire_add_function": {
+        "file_offset": 96452,
+        "hex": "2fe66ef3d305d206e1032212d10561126214602c61100314000b6ef60609c9f00609feb40609feb02fe66ef3d306d207e1032212d10662126124601c013c6220312c0314000b6ef60609c9f00609feb40609feb0"
+      },
+      "mercenary_range": {
+        "file_offset": 177134,
+        "hex": "e144"
+      },
+      "event_dispatch": {
+        "file_offset": 407600,
+        "hex": "060278c4060278ec"
+      }
+    }
+  },
+  "table_differences": [
+    {
+      "game": "L1",
+      "table": "class",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "class",
+      "differences": []
+    },
+    {
+      "game": "L1",
+      "table": "fight",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "fight",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "magic",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "item",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "character",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "shop",
+      "differences": [
+        {
+          "path": "LANG2.BIN",
+          "offset": 413222,
+          "before": 3,
+          "after": 4
+        },
+        {
+          "path": "LANG2.BIN",
+          "offset": 413223,
+          "before": 4,
+          "after": 5
+        },
+        {
+          "path": "LANG2.BIN",
+          "offset": 413224,
+          "before": 5,
+          "after": 112
+        },
+        {
+          "path": "LANG2.BIN",
+          "offset": 413246,
+          "before": 3,
+          "after": 4
+        },
+        {
+          "path": "LANG2.BIN",
+          "offset": 413247,
+          "before": 4,
+          "after": 5
+        },
+        {
+          "path": "LANG2.BIN",
+          "offset": 413248,
+          "before": 5,
+          "after": 112
+        }
+      ]
+    },
+    {
+      "game": "L2",
+      "table": "terrain",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "matchup",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "stage_reward",
+      "differences": []
+    },
+    {
+      "game": "L2",
+      "table": "promotion",
+      "differences": []
+    }
+  ],
+  "scenario10": {
+    "original": {
+      "decoded_length": 2146,
+      "sha256": "919014a4a38b5a312c3e71a361029f7da62072e99168441b208692f1a3d0f577",
+      "offset": 1399,
+      "hex": "c202",
+      "little_endian_value": 706
+    },
+    "third_party": {
+      "decoded_length": 2146,
+      "sha256": "0b82a08a1caa5873a52fcf4d35fc79e671fae5bce34f1368acc151f3ac347999",
+      "offset": 1399,
+      "hex": "7609",
+      "little_endian_value": 2422
+    },
+    "translation": {
+      "decoded_length": 2146,
+      "sha256": "919014a4a38b5a312c3e71a361029f7da62072e99168441b208692f1a3d0f577",
+      "offset": 1399,
+      "hex": "c202",
+      "little_endian_value": 706
+    },
+    "mod": {
+      "decoded_length": 2146,
+      "sha256": "919014a4a38b5a312c3e71a361029f7da62072e99168441b208692f1a3d0f577",
+      "offset": 1399,
+      "hex": "c202",
+      "little_endian_value": 706
+    }
+  },
+  "patch": {
+    "path": "F:\\TeraBoxDownload\\Lang KR rom edit\\SS_Lang1_2_Patch\\SS_Lang1_2_Patch.xdelta",
+    "sha256": "8a6ad7e523f86512ccc3179062dc5b813b75fb19986705cd0e2f37c73083fa3a"
+  },
+  "retreat_condition_truth_table": [
+    {
+      "flag_80": false,
+      "byte_3_is_zero": false,
+      "original_enters_increment_block": false,
+      "patched_enters_increment_block": false
+    },
+    {
+      "flag_80": false,
+      "byte_3_is_zero": true,
+      "original_enters_increment_block": true,
+      "patched_enters_increment_block": false
+    },
+    {
+      "flag_80": true,
+      "byte_3_is_zero": false,
+      "original_enters_increment_block": true,
+      "patched_enters_increment_block": false
+    },
+    {
+      "flag_80": true,
+      "byte_3_is_zero": true,
+      "original_enters_increment_block": true,
+      "patched_enters_increment_block": true
+    }
+  ],
+  "limits": [
+    "First data track is covered by verified xdelta windows; entire joined image did not decode successfully.",
+    "Static analysis only: no gameplay or voice playback verification.",
+    "No previous version of the third-party Korean patch available to isolate its bold-name fix.",
+    "No project source or build ROM was changed by this script."
+  ]
+}

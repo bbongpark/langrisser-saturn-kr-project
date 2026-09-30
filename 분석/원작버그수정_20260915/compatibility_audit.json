@@ -1,0 +1,83 @@
+{
+  "projects": {
+    "한글화": {
+      "before_sha256": "effc8b0035a606d2ab52d2a5607dac2d3f8b1078dafaac32fa759eac8d6ed140",
+      "after_sha256": "b01f128656d269679577dff46be904374271394782593838a3cbc8e695221c44",
+      "preexisting_bin_changed_bytes": 2260,
+      "bugfix_regions_overlap_preexisting_changes": 0,
+      "only_expected_bin_edits": true,
+      "fonts_and_images_unchanged": true,
+      "unchanged_nonempty_text_segments": 158679,
+      "separately_requested_item_stats_changes": 118,
+      "scenario_top_level_boundaries_unchanged": true,
+      "voice_event_only_two_bytes_changed": true,
+      "frozen_blocks_byte_identical": [
+        [
+          "LANG1",
+          20
+        ],
+        [
+          "LANG2",
+          98
+        ],
+        [
+          "LANG2",
+          100
+        ]
+      ]
+    },
+    "개조": {
+      "before_sha256": "b5919065c06e14eb169dc5a6d9cf97a92559c312d4b41f4d736cd70921bfe55e",
+      "after_sha256": "1a65453e920b7254d466c35205ae043af7119e55e665825fb0cebdf1b4b36536",
+      "preexisting_bin_changed_bytes": 2276,
+      "bugfix_regions_overlap_preexisting_changes": 0,
+      "only_expected_bin_edits": true,
+      "fonts_and_images_unchanged": true,
+      "unchanged_nonempty_text_segments": 158679,
+      "separately_requested_item_stats_changes": 118,
+      "scenario_top_level_boundaries_unchanged": true,
+      "voice_event_only_two_bytes_changed": true,
+      "frozen_blocks_byte_identical": [
+        [
+          "LANG1",
+          20
+        ],
+        [
+          "LANG2",
+          98
+        ],
+        [
+          "LANG2",
+          100
+        ]
+      ]
+    }
+  },
+  "roms_modified": false,
+  "direct_handler_references": {
+    "0x60278c4": {
+      "absolute": [
+        407600
+      ],
+      "relative": []
+    },
+    "0x60278ec": {
+      "absolute": [
+        407604
+      ],
+      "relative": []
+    }
+  },
+  "external_pc_literal_reads_into_replaced_region": [],
+  "caller_review": "0x18114 calls handler; 0x18118 onward reloads r1/r2, uses preserved r8; no dependence on MACL or final r0-r3.",
+  "donor_vs_installed_machine_code": {
+    "input_sets": 1200,
+    "handlers": 2,
+    "comparisons_passed": 2400
+  },
+  "translation_manifest_current": true,
+  "limitations": [
+    "No gameplay or real emulator execution was performed.",
+    "Direct references were inspected; computed or undocumented entry paths cannot be fully ruled out by static scans."
+  ]
+}

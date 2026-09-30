@@ -1,0 +1,98 @@
+{
+  "LANG1.BIN": {
+    "changed_bytes": 16,
+    "writes": [
+      {
+        "offset": 396404,
+        "before": "ffffffff",
+        "after": "00080014"
+      },
+      {
+        "offset": 410858,
+        "before": "01f4",
+        "after": "0001"
+      },
+      {
+        "offset": 410862,
+        "before": "05dc",
+        "after": "0001"
+      },
+      {
+        "offset": 410452,
+        "before": "01150000",
+        "after": "01212300"
+      },
+      {
+        "offset": 63164,
+        "before": "71486110601c880b",
+        "after": "71496110601c8821"
+      },
+      {
+        "offset": 63366,
+        "before": "71486110601c880b",
+        "after": "71496110601c8821"
+      },
+      {
+        "offset": 65254,
+        "before": "72486120601c880b",
+        "after": "72496120601c8821"
+      }
+    ]
+  },
+  "LANG2.BIN": {
+    "changed_bytes": 16,
+    "writes": [
+      {
+        "offset": 397800,
+        "before": "ffffffff",
+        "after": "00080014"
+      },
+      {
+        "offset": 413814,
+        "before": "01f4",
+        "after": "0001"
+      },
+      {
+        "offset": 413818,
+        "before": "05dc",
+        "after": "0001"
+      },
+      {
+        "offset": 413004,
+        "before": "01150000",
+        "after": "01212300"
+      },
+      {
+        "offset": 70504,
+        "before": "71486110601c880b",
+        "after": "71496110601c8821"
+      },
+      {
+        "offset": 70706,
+        "before": "71486110601c880b",
+        "after": "71496110601c8821"
+      },
+      {
+        "offset": 72598,
+        "before": "72486120601c880b",
+        "after": "72496120601c8821"
+      }
+    ]
+  },
+  "changed_sectors": [
+    232,
+    233,
+    395,
+    402,
+    438,
+    439,
+    598,
+    605,
+    606
+  ],
+  "translation_track_sha256": "fafa948819a2d9cdb2c7c96d39984a4758055c265e5a3deb170776fabb34c71c",
+  "mod_track_sha256": "3ee34e77b08a4ccb2a940a12d50e95f602bd40113e268d7283ac0e06ae2dd2d5",
+  "full_track_matches_independent_write_plan": true,
+  "mercenary_classes_hooks_and_all_other_files_match_translation": true,
+  "runtime_screen_check": "not run for this changed profile"
+}

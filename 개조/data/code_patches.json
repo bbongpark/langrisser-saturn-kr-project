@@ -1,0 +1,75 @@
+{
+  "description": "1.3V 크라운·룬스톤 개조. 크라운 경험치 2배·MDF +20, 크라운/룬스톤 10P, 첫 상점 나이프·크라운·룬스톤. 용병 개조 제거.",
+  "patches": [
+    {
+      "file": "LANG1.BIN",
+      "offset": 396404,
+      "before": "ffffffff",
+      "after": "00080014",
+      "label": "L1 크라운 마법내성 +20"
+    },
+    {
+      "file": "LANG1.BIN",
+      "offset": 410858,
+      "before": "01f4",
+      "after": "0001",
+      "label": "L1 크라운 10P"
+    },
+    {
+      "file": "LANG1.BIN",
+      "offset": 410452,
+      "before": "01150000",
+      "after": "01212300",
+      "label": "L1 첫 상점 나이프·크라운·룬스톤"
+    },
+    {
+      "file": "LANG1.BIN",
+      "offset": 410862,
+      "before": "05dc",
+      "after": "0001",
+      "label": "L1 룬스톤 10P"
+    },
+    {
+      "file": "LANG1.BIN",
+      "offset": 63164,
+      "before": "71486110601c880b",
+      "after": "71496110601c8821",
+      "label": "LANG1 경험치 2배: 메사이안 소드 무기 칸 → 크라운 장비 칸 @0xf6bc"
+    },
+    {
+      "file": "LANG1.BIN",
+      "offset": 63366,
+      "before": "71486110601c880b",
+      "after": "71496110601c8821",
+      "label": "LANG1 경험치 2배: 메사이안 소드 무기 칸 → 크라운 장비 칸 @0xf786"
+    },
+    {
+      "file": "LANG1.BIN",
+      "offset": 65254,
+      "before": "72486120601c880b",
+      "after": "72496120601c8821",
+      "label": "LANG1 경험치 2배: 메사이안 소드 무기 칸 → 크라운 장비 칸 @0xfee6"
+    },
+    {
+      "file": "LANG2.BIN",
+      "offset": 70504,
+      "before": "71486110601c880b",
+      "after": "71496110601c8821",
+      "label": "LANG2 경험치 2배: 메사이안 소드 무기 칸 → 크라운 장비 칸 @0x11368"
+    },
+    {
+      "file": "LANG2.BIN",
+      "offset": 70706,
+      "before": "71486110601c880b",
+      "after": "71496110601c8821",
+      "label": "LANG2 경험치 2배: 메사이안 소드 무기 칸 → 크라운 장비 칸 @0x11432"
+    },
+    {
+      "file": "LANG2.BIN",
+      "offset": 72598,
+      "before": "72486120601c880b",
+      "after": "72496120601c8821",
+      "label": "LANG2 경험치 2배: 메사이안 소드 무기 칸 → 크라운 장비 칸 @0x11b96"
+    }
+  ]
+}
