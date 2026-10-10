@@ -1,0 +1,130 @@
+{
+  "release_track_sha256": "fafa948819a2d9cdb2c7c96d39984a4758055c265e5a3deb170776fabb34c71c",
+  "candidate_track_sha256": "4247ff822de75f9e061f341d72d40eec47871f4a0a734013d23f5b9f2cbf40be",
+  "menu_labels": {
+    "L1": {
+      "offset": "0x2a7ac",
+      "before": "3c3d062f3f70",
+      "after": "3c3d41427070",
+      "bitmap_archive_unchanged": true
+    },
+    "L2": {
+      "offset": "0x2c4e8",
+      "before": "3c3d062f3f70",
+      "after": "3c3d41427070",
+      "bitmap_archive_unchanged": true
+    }
+  },
+  "only_changed_disc_sectors": [
+    286,
+    492
+  ],
+  "changed_sectors_edc_ecc_valid": true,
+  "hein": {
+    "initial_quota": 3,
+    "paladin_class": 38,
+    "priest_class": 239,
+    "class_deltas": {
+      "38": 1,
+      "239": -1
+    },
+    "original_class_table_unchanged": true,
+    "original_initialization_unchanged": true,
+    "original_promotion_calculation_unchanged": true,
+    "original_hire_limit_calculation_unchanged": true,
+    "native_machine_code_cases": [
+      {
+        "saved_before_paladin": 0,
+        "stages": [
+          {
+            "class_id": 38,
+            "saved": 1,
+            "hire_limit": 3
+          },
+          {
+            "class_id": 239,
+            "saved": 0,
+            "hire_limit": 3
+          }
+        ]
+      },
+      {
+        "saved_before_paladin": 1,
+        "stages": [
+          {
+            "class_id": 38,
+            "saved": 2,
+            "hire_limit": 3
+          },
+          {
+            "class_id": 239,
+            "saved": 1,
+            "hire_limit": 3
+          }
+        ]
+      },
+      {
+        "saved_before_paladin": 2,
+        "stages": [
+          {
+            "class_id": 38,
+            "saved": 3,
+            "hire_limit": 3
+          },
+          {
+            "class_id": 239,
+            "saved": 2,
+            "hire_limit": 3
+          }
+        ]
+      },
+      {
+        "saved_before_paladin": 3,
+        "stages": [
+          {
+            "class_id": 38,
+            "saved": 4,
+            "hire_limit": 4
+          },
+          {
+            "class_id": 239,
+            "saved": 3,
+            "hire_limit": 3
+          }
+        ]
+      },
+      {
+        "saved_before_paladin": 5,
+        "stages": [
+          {
+            "class_id": 38,
+            "saved": 6,
+            "hire_limit": 6
+          },
+          {
+            "class_id": 239,
+            "saved": 5,
+            "hire_limit": 5
+          }
+        ]
+      },
+      {
+        "saved_before_paladin": 6,
+        "stages": [
+          {
+            "class_id": 38,
+            "saved": 7,
+            "hire_limit": 6
+          },
+          {
+            "class_id": 239,
+            "saved": 6,
+            "hire_limit": 6
+          }
+        ]
+      }
+    ],
+    "user_save_examined": false,
+    "real_gameplay_examined": false
+  }
+}

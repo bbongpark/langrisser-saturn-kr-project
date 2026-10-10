@@ -1,0 +1,18 @@
+{
+  "variant": "개조판",
+  "chd": "chd-mod/랑그릿사 I&II 1.3V 개조판.chd",
+  "chd_sha256": "89a6ba956d06a86cab3272b464326b93b304de8f599df9a4c1ded62990617b90",
+  "chd_size": 463542434,
+  "tracks": {
+    "track1.bin": "dad32239c708d7d847ea16ffe3a0bfe3837387e36a292622e8ccecc93a541a0d",
+    "track2.bin": "1c04a65e066e3f7cf79a7e31fd8f5604de9d9198d7cb3d711bb87ea69bdec2b4",
+    "track3.bin": "337d64ac0c42be64f908c58c74672ce6127a1eab38cd3315cd4043ddf50c3514",
+    "track4.bin": "929a11760cc61c50358246538afa6ccb651fe6e485d5d2f78c072c08f7b98cbc",
+    "track5.bin": "860bc78b1779dc1237fa08918415e1e87e47ef1cfd34df8a04fc28ff74398711",
+    "track6.bin": "70cd48bd52d09e9bbabe0e532ee32cd1f21d92c50fc22b6c2c2cddef4705508b"
+  },
+  "chdman_verify": true,
+  "all_six_extracted_tracks_match_build": true,
+  "track_modes_and_indices_preserved": true,
+  "actual_game_screen_checked": false
+}

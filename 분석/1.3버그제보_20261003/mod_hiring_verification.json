@@ -1,0 +1,475 @@
+{
+  "extracted_chd_track1_matches_release_manifest": true,
+  "extracted_track1_sha256": "3ee34e77b08a4ccb2a940a12d50e95f602bd40113e268d7283ac0e06ae2dd2d5",
+  "quiz_event_unchanged": true,
+  "entire_class_table_unchanged": true,
+  "original_and_mod_results_identical": true,
+  "choice_path": [
+    0,
+    0,
+    2,
+    2,
+    1,
+    2,
+    0,
+    2
+  ],
+  "versions": {
+    "japanese": {
+      "initial_personal_records": {
+        "1": "00030000171204000000010000000000000000011000000000000000000000000000000000000000",
+        "2": "000b0800141103000000030000000280010000050000000000000002000000000000000000000000",
+        "3": "000b0a00151203000000090000000280010000090000000000000002000000000000000000000000",
+        "4": "000a0000190e050000000400000000000100000d0000000000000800000000000000000000000000",
+        "5": "000e0c00170d03000000010000000001000000111000000000000000000000000000000000000000",
+        "6": "00fe0006161005000000020000000000000000150008000000000000000000000000000000000000",
+        "7": "000a01001a0f05000000080000000000000000210000000000000800000000000000000000000000",
+        "8": "00020100171405000000090000000000000000250800000000000000000000000000000000000000",
+        "9": "000801001713050000000900000000000000001d0000000000020000000000000000000000000000",
+        "10": "000c0a001910030000000900000000040100003a2000000000000000000000000000000000000000",
+        "11": "00350008181105000000020000000000000000f90200000000000000000000000000000000000000",
+        "12": "00d801001a1105000000090000000000000000f20020000000000000000000000000000000000000",
+        "13": "000601001814050000000900000000000000002f0004000000000000000000000000000000000000",
+        "14": "000101001a1405000000090000000000000000340400000000000000000000000000000000000000",
+        "15": "000d0c00190f03000000090000020008010000370400000000000000000000000000000000000000",
+        "16": "000d0e00180f030000000900000200080000002c0400000000000000000000000000000000000000",
+        "17": "001204001e1303000000090000400000010000f50000000000080000000000000000000000000000",
+        "18": "000f0000181405000000090000000000000000f70000000000000000080000000000000000000000",
+        "19": "000601001814050000000900000000000000002f0004000000000000000000000000000000000000"
+      },
+      "trace": [
+        {
+          "offset": "0x83",
+          "opcode": "0x43",
+          "command": "4300f600000c0d0ec800d100",
+          "quota_before": 4,
+          "quota_after": 4,
+          "choice": "후퇴한다"
+        },
+        {
+          "offset": "0x8f",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 4,
+          "quota_after": 4
+        },
+        {
+          "offset": "0x98",
+          "opcode": "0x43",
+          "command": "4300f60000101112b400c200",
+          "quota_before": 4,
+          "quota_after": 4,
+          "choice": "존재하지 않는다"
+        },
+        {
+          "offset": "0xa4",
+          "opcode": "0x49",
+          "command": "49010e",
+          "quota_before": 4,
+          "quota_after": 4
+        },
+        {
+          "offset": "0xa7",
+          "opcode": "0x4a",
+          "command": "4a06ff",
+          "quota_before": 4,
+          "quota_after": 3
+        },
+        {
+          "offset": "0xac",
+          "opcode": "0x4c",
+          "command": "4c00",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x147",
+          "opcode": "0x43",
+          "command": "4300f600001c1d1e5b016301",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "자신의 힘"
+        },
+        {
+          "offset": "0x163",
+          "opcode": "0x4a",
+          "command": "4a0401",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x231",
+          "opcode": "0x43",
+          "command": "4300f6000030313248025202",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "정찰대를 구하러 간다"
+        },
+        {
+          "offset": "0x254",
+          "opcode": "0x4c",
+          "command": "4c09",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x346",
+          "opcode": "0x43",
+          "command": "4300f6000048494a5e036703",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "통솔력"
+        },
+        {
+          "offset": "0x35e",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x39e",
+          "opcode": "0x43",
+          "command": "4300f60000505152b503c103",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "강대한 힘"
+        },
+        {
+          "offset": "0x3c1",
+          "opcode": "0x4a",
+          "command": "4a0401",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3c4",
+          "opcode": "0x4a",
+          "command": "4a0501",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3c7",
+          "opcode": "0x4a",
+          "command": "4a0701",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3ca",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3d3",
+          "opcode": "0x43",
+          "command": "4300f60000545556eb03f603",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "소수정예 부대"
+        },
+        {
+          "offset": "0x3df",
+          "opcode": "0x4a",
+          "command": "4a0701",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3e2",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3e5",
+          "opcode": "0x4a",
+          "command": "4a06ff",
+          "quota_before": 3,
+          "quota_after": 2
+        },
+        {
+          "offset": "0x402",
+          "opcode": "0x43",
+          "command": "4300f6000058595a14041c04",
+          "quota_before": 2,
+          "quota_after": 2,
+          "choice": "사랑하는 사람을 지키려고"
+        },
+        {
+          "offset": "0x41c",
+          "opcode": "0x4c",
+          "command": "4c0f",
+          "quota_before": 2,
+          "quota_after": 2
+        },
+        {
+          "offset": "0x41e",
+          "opcode": "0x4a",
+          "command": "4a0501",
+          "quota_before": 2,
+          "quota_after": 2
+        }
+      ],
+      "final_elwin_record": "000e0000191402020400010000008201000000011000000000000000000000000000000000000000",
+      "final_hein_record": "000e0c00170d03000000010000000001000000111000000000000000000000000000000000000000",
+      "elwin_lord": {
+        "old_class": 14,
+        "new_class": 22,
+        "saved_before": 2,
+        "saved_after": 3,
+        "displayed_before": 3,
+        "displayed_after": 3
+      },
+      "hein_paladin": {
+        "old_class": 14,
+        "new_class": 38,
+        "saved_before": 3,
+        "saved_after": 4,
+        "displayed_before": 3,
+        "displayed_after": 4
+      },
+      "hein_priest": {
+        "old_class": 38,
+        "new_class": 239,
+        "saved_before": 4,
+        "saved_after": 3,
+        "displayed_before": 4,
+        "displayed_after": 3
+      }
+    },
+    "released_mod_1.3": {
+      "initial_personal_records": {
+        "1": "00030000171204000000010000000000000000011000000000000000000000000000000000000000",
+        "2": "000b0800141103000000030000000280010000050000000000000002000000000000000000000000",
+        "3": "000b0a00151203000000090000000280010000090000000000000002000000000000000000000000",
+        "4": "000a0000190e050000000400000000000100000d0000000000000800000000000000000000000000",
+        "5": "000e0c00170d03000000010000000001000000111000000000000000000000000000000000000000",
+        "6": "00fe0006161005000000020000000000000000150008000000000000000000000000000000000000",
+        "7": "000a01001a0f05000000080000000000000000210000000000000800000000000000000000000000",
+        "8": "00020100171405000000090000000000000000250800000000000000000000000000000000000000",
+        "9": "000801001713050000000900000000000000001d0000000000020000000000000000000000000000",
+        "10": "000c0a001910030000000900000000040100003a2000000000000000000000000000000000000000",
+        "11": "00350008181105000000020000000000000000f90200000000000000000000000000000000000000",
+        "12": "00d801001a1105000000090000000000000000f20020000000000000000000000000000000000000",
+        "13": "000601001814050000000900000000000000002f0004000000000000000000000000000000000000",
+        "14": "000101001a1405000000090000000000000000340400000000000000000000000000000000000000",
+        "15": "000d0c00190f03000000090000020008010000370400000000000000000000000000000000000000",
+        "16": "000d0e00180f030000000900000200080000002c0400000000000000000000000000000000000000",
+        "17": "001204001e1303000000090000400000010000f50000000000080000000000000000000000000000",
+        "18": "000f0000181405000000090000000000000000f70000000000000000080000000000000000000000",
+        "19": "000601001814050000000900000000000000002f0004000000000000000000000000000000000000"
+      },
+      "trace": [
+        {
+          "offset": "0x83",
+          "opcode": "0x43",
+          "command": "4300f600000c0d0ec800d100",
+          "quota_before": 4,
+          "quota_after": 4,
+          "choice": "후퇴한다"
+        },
+        {
+          "offset": "0x8f",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 4,
+          "quota_after": 4
+        },
+        {
+          "offset": "0x98",
+          "opcode": "0x43",
+          "command": "4300f60000101112b400c200",
+          "quota_before": 4,
+          "quota_after": 4,
+          "choice": "존재하지 않는다"
+        },
+        {
+          "offset": "0xa4",
+          "opcode": "0x49",
+          "command": "49010e",
+          "quota_before": 4,
+          "quota_after": 4
+        },
+        {
+          "offset": "0xa7",
+          "opcode": "0x4a",
+          "command": "4a06ff",
+          "quota_before": 4,
+          "quota_after": 3
+        },
+        {
+          "offset": "0xac",
+          "opcode": "0x4c",
+          "command": "4c00",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x147",
+          "opcode": "0x43",
+          "command": "4300f600001c1d1e5b016301",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "자신의 힘"
+        },
+        {
+          "offset": "0x163",
+          "opcode": "0x4a",
+          "command": "4a0401",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x231",
+          "opcode": "0x43",
+          "command": "4300f6000030313248025202",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "정찰대를 구하러 간다"
+        },
+        {
+          "offset": "0x254",
+          "opcode": "0x4c",
+          "command": "4c09",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x346",
+          "opcode": "0x43",
+          "command": "4300f6000048494a5e036703",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "통솔력"
+        },
+        {
+          "offset": "0x35e",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x39e",
+          "opcode": "0x43",
+          "command": "4300f60000505152b503c103",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "강대한 힘"
+        },
+        {
+          "offset": "0x3c1",
+          "opcode": "0x4a",
+          "command": "4a0401",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3c4",
+          "opcode": "0x4a",
+          "command": "4a0501",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3c7",
+          "opcode": "0x4a",
+          "command": "4a0701",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3ca",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3d3",
+          "opcode": "0x43",
+          "command": "4300f60000545556eb03f603",
+          "quota_before": 3,
+          "quota_after": 3,
+          "choice": "소수정예 부대"
+        },
+        {
+          "offset": "0x3df",
+          "opcode": "0x4a",
+          "command": "4a0701",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3e2",
+          "opcode": "0x4a",
+          "command": "4a0801",
+          "quota_before": 3,
+          "quota_after": 3
+        },
+        {
+          "offset": "0x3e5",
+          "opcode": "0x4a",
+          "command": "4a06ff",
+          "quota_before": 3,
+          "quota_after": 2
+        },
+        {
+          "offset": "0x402",
+          "opcode": "0x43",
+          "command": "4300f6000058595a14041c04",
+          "quota_before": 2,
+          "quota_after": 2,
+          "choice": "사랑하는 사람을 지키려고"
+        },
+        {
+          "offset": "0x41c",
+          "opcode": "0x4c",
+          "command": "4c0f",
+          "quota_before": 2,
+          "quota_after": 2
+        },
+        {
+          "offset": "0x41e",
+          "opcode": "0x4a",
+          "command": "4a0501",
+          "quota_before": 2,
+          "quota_after": 2
+        }
+      ],
+      "final_elwin_record": "000e0000191402020400010000008201000000011000000000000000000000000000000000000000",
+      "final_hein_record": "000e0c00170d03000000010000000001000000111000000000000000000000000000000000000000",
+      "elwin_lord": {
+        "old_class": 14,
+        "new_class": 22,
+        "saved_before": 2,
+        "saved_after": 3,
+        "displayed_before": 3,
+        "displayed_after": 3
+      },
+      "hein_paladin": {
+        "old_class": 14,
+        "new_class": 38,
+        "saved_before": 3,
+        "saved_after": 4,
+        "displayed_before": 3,
+        "displayed_after": 4
+      },
+      "hein_priest": {
+        "old_class": 38,
+        "new_class": 239,
+        "saved_before": 4,
+        "saved_after": 3,
+        "displayed_before": 4,
+        "displayed_after": 3
+      }
+    }
+  },
+  "user_save_examined": false,
+  "emulator_gameplay_examined": false
+}

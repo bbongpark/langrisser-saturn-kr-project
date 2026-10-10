@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""카타카나 라벨 리다이렉트 — ゲーム設定→게임설정, フェイズ終了→페이즈종료.
+"""카타카나 라벨 리다이렉트 — ゲーム設定→게임설정, フェイズ終了→페이즈종료, 戦闘シーン→전투표시.
 
 세션6 발견(LABELS_CATALOG.md 참조): 메뉴 라벨은 **라벨→글리프 인덱스 테이블**이
 LANG{1,2}.BIN에 평문으로 있고, 게임이 그 인덱스를 그대로 그린다. 값은 전 뱅크 통합
@@ -56,6 +56,11 @@ _SAVE_OLD = bytes.fromhex("362f3e707070")   # セーブ (セ ー ブ)
 _SAVE_NEW = bytes.fromhex("36013e707070")   # 세이브 (세 이 브) — ー(2f)→이(01)
 _LOAD_OLD = bytes.fromhex("492f4a707070")   # ロード (ロ ー ド)
 _LOAD_NEW = bytes.fromhex("494a70707070")   # 로드 (로 드) — ー 제외, ド를 앞으로
+# 게임설정 화면 戦闘シーン (settei+0x18) -> 전투표시: 글리프 추가 없음, 테이블만 리다이렉트.
+#   0x3c=전·0x3d=투·0x41=표·0x42=시·0x70=빈칸은 이미 번역됨. 0x06/0x2f/0x3f 슬롯에서 빼기만
+#   하고 내용은 그대로 둔다 — 공유 가타카나를 건드리지 않으므로 다른 화면이 깨지지 않는다.
+_BATTLE_OLD = bytes.fromhex("3c3d062f3f70")  # 戦闘シーン
+_BATTLE_NEW = bytes.fromhex("3c3d41427070")  # 전투표시 + 빈칸 (3c=전 3d=투 41=표 42=시 70=빈칸)
 
 CONFIGS = {
     "L1": dict(binf="LANG1.BIN", bin_lba=202, bin_size=0x64F14,
@@ -77,8 +82,9 @@ def _apply(buf, off, old, new, what):
 
 def patch_bin(buf, cfg, tag):
     b = bytearray(buf)
-    # 게임설정 화면 테이블: 첫 슬롯이 ゲーム設定 (타이틀)
+    # 게임설정 화면 테이블: 첫 슬롯이 ゲーム設定 (타이틀), +0x18이 戦闘シーン
     _apply(b, cfg["settei"], _GAME_OLD, _GAME_NEW, f"{tag} settei/ゲーム設定")
+    _apply(b, cfg["settei"] + 0x18, _BATTLE_OLD, _BATTLE_NEW, f"{tag} settei/戦闘シーン")
     # 시스템 메뉴 테이블: +0x00 セーブ, +0x06 ロード, +0x12 ゲーム設定, +0x18 フェイズ終了
     _apply(b, cfg["system"] + 0x00, _SAVE_OLD, _SAVE_NEW, f"{tag} system/セーブ")
     _apply(b, cfg["system"] + 0x06, _LOAD_OLD, _LOAD_NEW, f"{tag} system/ロード")
@@ -113,7 +119,7 @@ def main():
     for tag, cfg in CONFIGS.items():
         b = disc.read_file(cfg["bin_lba"], cfg["bin_size"])
         disc.write_file(cfg["bin_lba"], patch_bin(b, cfg, tag))
-        print(f"{tag} {cfg['binf']}: 테이블 5곳 리다이렉트 (게임설정 x2, 페이즈종료, 세이브, 로드)")
+        print(f"{tag} {cfg['binf']}: 테이블 6곳 리다이렉트 (게임설정 x2, 페이즈종료, 세이브, 로드, 전투표시)")
         # ⚠ 세이브/로드 글리프(세·브=res#29, 로·드=res#30)는 refont_labels가 굽는다 —
         #   standalone patch_img(아래)는 res#29 NEW_GLYPHS만 처리하므로 세/브/로/드는 안 나온다.
 

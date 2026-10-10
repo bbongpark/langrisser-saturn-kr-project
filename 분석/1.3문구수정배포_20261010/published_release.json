@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "files": {
+    "1.3V/검증상태.txt": "43dc4190f436f310a5da43d510e9d16506915ec3080bde7c0cffcea0032c1360",
+    "1.3V/랑그릿사 I&II 1.3V 개조판.chd": "89a6ba956d06a86cab3272b464326b93b304de8f599df9a4c1ded62990617b90",
+    "1.3V/랑그릿사 I&II 1.3V 한글판.chd": "2f2973ebd8966350b2538d8d7e42ef8f4bab66021ae76de4f1f448b7fcb2a0de",
+    "1.3V 패치/개조판/APACHE-2.0-LICENSE.txt": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+    "1.3V 패치/개조판/apply.ps1": "5991f94bd5b64ec213e7360ecad46ffe659ec9cfa8541fe72b92a4ab517723b4",
+    "1.3V 패치/개조판/langrisser-kr-mod-v1.3-track1.xdelta": "291a7f41647b7ea5937cdc1b139c5db20527b4d19e1fe0dd49b23f7bcdf3a2fa",
+    "1.3V 패치/개조판/langrisser-mod.cue": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af",
+    "1.3V 패치/개조판/manifest.json": "b9eea5c5dae531733c0d03da86891f173169048c3340340008fb63138e687981",
+    "1.3V 패치/개조판/xdelta3.exe": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+    "1.3V 패치/개조판/설명서.txt": "6a8f6f143d67bcf40798d69d21ac8f847544147408ea5f7fc5ad4c8673eaef03",
+    "1.3V 패치/개조판/적용하기.bat": "be18869c5747de14f2d7ca7b36a59f03cb7a096b56c110db118825075c55304f",
+    "1.3V 패치/랑그릿사_1.3V_개조판_패치.zip": "05e901f6044036c14615850ea94ef0acdf4463d0c3fe6d5826e7b773a917ef7d",
+    "1.3V 패치/랑그릿사_1.3V_한글판_패치.zip": "9b63bb050ab2d5a96b55741d99101321a4c36c3aff074bfd6a695bd2ea3bea22",
+    "1.3V 패치/먼저_읽어주세요.txt": "c96f7f06ca143208326cfa8caf26ae2ea34a06383488a109fd911da150b335b1",
+    "1.3V 패치/제작_검증_기록.md": "5c524e1fed72b7b4df0c5334efd63978c4511aefc6b9f5c4b507620dc56f900b",
+    "1.3V 패치/한글판/APACHE-2.0-LICENSE.txt": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+    "1.3V 패치/한글판/apply.ps1": "5991f94bd5b64ec213e7360ecad46ffe659ec9cfa8541fe72b92a4ab517723b4",
+    "1.3V 패치/한글판/langrisser-kr-v1.3-track1.xdelta": "cdf3201a8f73879ba66f71507d166c4cb417f72a9e11d9a325f7c906c53bf876",
+    "1.3V 패치/한글판/langrisser-krpoc.cue": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af",
+    "1.3V 패치/한글판/manifest.json": "85dca0bd309b91a04fbfb9edaf3dc6dc594c5af3fe6e606ec42cd2cf6952f3a8",
+    "1.3V 패치/한글판/xdelta3.exe": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+    "1.3V 패치/한글판/설명서.txt": "fd3e0c6a7819c9ef736fcacdecdda5a8ad2c392ded2e3e0851f353c078e5ae67",
+    "1.3V 패치/한글판/적용하기.bat": "be18869c5747de14f2d7ca7b36a59f03cb7a096b56c110db118825075c55304f"
+  },
+  "backup": "backup/",
+  "actual_game_screen_checked": false
+}

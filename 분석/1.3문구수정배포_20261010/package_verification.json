@@ -1,0 +1,36 @@
+{
+  "한글판": {
+    "patch_sha256": "cdf3201a8f73879ba66f71507d166c4cb417f72a9e11d9a325f7c906c53bf876",
+    "zip_sha256": "9b63bb050ab2d5a96b55741d99101321a4c36c3aff074bfd6a695bd2ea3bea22",
+    "result_track1_sha256": "4247ff822de75f9e061f341d72d40eec47871f4a0a734013d23f5b9f2cbf40be",
+    "installer_all_six_tracks_and_cue_match": true,
+    "zip_integrity_and_contents_match": true,
+    "package_files": {
+      "APACHE-2.0-LICENSE.txt": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "apply.ps1": "5991f94bd5b64ec213e7360ecad46ffe659ec9cfa8541fe72b92a4ab517723b4",
+      "langrisser-kr-v1.3-track1.xdelta": "cdf3201a8f73879ba66f71507d166c4cb417f72a9e11d9a325f7c906c53bf876",
+      "langrisser-krpoc.cue": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af",
+      "manifest.json": "85dca0bd309b91a04fbfb9edaf3dc6dc594c5af3fe6e606ec42cd2cf6952f3a8",
+      "xdelta3.exe": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+      "설명서.txt": "fd3e0c6a7819c9ef736fcacdecdda5a8ad2c392ded2e3e0851f353c078e5ae67",
+      "적용하기.bat": "be18869c5747de14f2d7ca7b36a59f03cb7a096b56c110db118825075c55304f"
+    }
+  },
+  "개조판": {
+    "patch_sha256": "291a7f41647b7ea5937cdc1b139c5db20527b4d19e1fe0dd49b23f7bcdf3a2fa",
+    "zip_sha256": "05e901f6044036c14615850ea94ef0acdf4463d0c3fe6d5826e7b773a917ef7d",
+    "result_track1_sha256": "dad32239c708d7d847ea16ffe3a0bfe3837387e36a292622e8ccecc93a541a0d",
+    "installer_all_six_tracks_and_cue_match": true,
+    "zip_integrity_and_contents_match": true,
+    "package_files": {
+      "APACHE-2.0-LICENSE.txt": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "apply.ps1": "5991f94bd5b64ec213e7360ecad46ffe659ec9cfa8541fe72b92a4ab517723b4",
+      "langrisser-kr-mod-v1.3-track1.xdelta": "291a7f41647b7ea5937cdc1b139c5db20527b4d19e1fe0dd49b23f7bcdf3a2fa",
+      "langrisser-mod.cue": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af",
+      "manifest.json": "b9eea5c5dae531733c0d03da86891f173169048c3340340008fb63138e687981",
+      "xdelta3.exe": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0",
+      "설명서.txt": "6a8f6f143d67bcf40798d69d21ac8f847544147408ea5f7fc5ad4c8673eaef03",
+      "적용하기.bat": "be18869c5747de14f2d7ca7b36a59f03cb7a096b56c110db118825075c55304f"
+    }
+  }
+}

@@ -2,9 +2,9 @@
   "format_version": 1,
   "variant": "개조판",
   "supported_source": "Langrisser I & II Dramatic Edition (Japan) (1M), raw 6-track BIN/CUE",
-  "output_folder": "Langrisser_KR_MOD_v1.3_20260930",
+  "output_folder": "Langrisser_KR_MOD_v1.3_20261010",
   "patch_file": "langrisser-kr-mod-v1.3-track1.xdelta",
-  "patch_sha256": "97cdac1cbe5da232fd51bc745683e60f33713d722c4aa409b387bc060db2353a",
+  "patch_sha256": "291a7f41647b7ea5937cdc1b139c5db20527b4d19e1fe0dd49b23f7bcdf3a2fa",
   "cue_file": "langrisser-mod.cue",
   "cue_sha256": "8a4af6fd035714ba5d7221460634e89aedd8cc27558574b107e74671f7ce61af",
   "tool_file": "xdelta3.exe",
@@ -38,7 +38,7 @@
   "result_tracks": [
     {
       "size": 392784000,
-      "sha256": "3ee34e77b08a4ccb2a940a12d50e95f602bd40113e268d7283ac0e06ae2dd2d5"
+      "sha256": "dad32239c708d7d847ea16ffe3a0bfe3837387e36a292622e8ccecc93a541a0d"
     },
     {
       "size": 161335440,

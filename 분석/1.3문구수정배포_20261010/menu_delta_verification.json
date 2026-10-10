@@ -1,0 +1,48 @@
+{
+  "한글판": {
+    "old_track1_sha256": "fafa948819a2d9cdb2c7c96d39984a4758055c265e5a3deb170776fabb34c71c",
+    "new_track1_sha256": "4247ff822de75f9e061f341d72d40eec47871f4a0a734013d23f5b9f2cbf40be",
+    "changed_sectors": [
+      286,
+      492
+    ],
+    "bins": {
+      "LANG1.BIN": {
+        "offset": 173996,
+        "old_label": "전투시ーン",
+        "new_label": "전투표시",
+        "changed_bytes": 3
+      },
+      "LANG2.BIN": {
+        "offset": 181480,
+        "old_label": "전투시ーン",
+        "new_label": "전투표시",
+        "changed_bytes": 3
+      }
+    },
+    "full_disc_matches_only_label_changes_and_regenerated_checksums": true
+  },
+  "개조판": {
+    "old_track1_sha256": "3ee34e77b08a4ccb2a940a12d50e95f602bd40113e268d7283ac0e06ae2dd2d5",
+    "new_track1_sha256": "dad32239c708d7d847ea16ffe3a0bfe3837387e36a292622e8ccecc93a541a0d",
+    "changed_sectors": [
+      286,
+      492
+    ],
+    "bins": {
+      "LANG1.BIN": {
+        "offset": 173996,
+        "old_label": "전투시ーン",
+        "new_label": "전투표시",
+        "changed_bytes": 3
+      },
+      "LANG2.BIN": {
+        "offset": 181480,
+        "old_label": "전투시ーン",
+        "new_label": "전투표시",
+        "changed_bytes": 3
+      }
+    },
+    "full_disc_matches_only_label_changes_and_regenerated_checksums": true
+  }
+}
