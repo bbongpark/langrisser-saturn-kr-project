@@ -1,13 +1,34 @@
 # 랑그릿사 I & II 새턴 한글화·개조 프로젝트
 
-현재 작업에 필요한 번역문, 글꼴, 제작 도구, 검사, 설명서와 최신 1.3V 차이 패치를 정리한 비공개 저장소입니다.
+세가 새턴판 **랑그릿사 I & II 드라마틱 에디션**의 한글판·개조판 **1.3V 패치**와 번역문, 글꼴, 제작 도구, 설명서를 관리하는 저장소입니다. 현재 배포본은 **2026-10-10 설정 문구 수정까지 반영한 1.3V**입니다.
+
+## 1.3V 다운로드
+
+[1.3V 배포 페이지](https://github.com/bbongpark/langrisser-saturn-kr-project/releases/tag/v1.3)에서 원하는 판 **하나**를 받으세요.
+
+| 배포판 | 포함 내용 | 다운로드 |
+| --- | --- | --- |
+| 한글판 1.3V | 한글화와 공통 버그·문구 수정 | [한글판 패치 ZIP](https://github.com/bbongpark/langrisser-saturn-kr-project/releases/download/v1.3/Langrisser_1.3_KR_Patch.zip) |
+| 개조판 1.3V | 한글판 전체 내용 + 아래 크라운·가격·상점 개조 | [개조판 패치 ZIP](https://github.com/bbongpark/langrisser-saturn-kr-project/releases/download/v1.3/Langrisser_1.3_KR_Mod_Patch.zip) |
+
+두 ZIP은 각각 일본판 원본에 직접 적용합니다. 개조판에 한글판 패치를 먼저 적용할 필요는 없습니다. ZIP에는 차이 패치와 적용 도구·설명서가 들어 있으며, 원본 게임이나 완성 CHD·BIN은 포함하지 않습니다. GitHub의 `Source code` ZIP은 제작용 소스이므로 게임에 적용할 때는 위 패치 ZIP을 선택하세요.
+
+**[1.3V 전체 변경 내역·적용 방법·확인된 한계](docs/releases/1.3.md)** · [상세 제작·검증 기록](docs/1.3V_갱신_20261010.md)
+
+## 패치 적용 방법 (Windows)
+
+1. 본인이 보유한 **Langrisser - Dramatic Edition (Japan) (1M)** 원본의 CUE 1개와 BIN 트랙 6개를 같은 폴더에 준비합니다. CHD 하나에는 직접 적용할 수 없습니다.
+2. 원하는 판의 패치 ZIP을 풀고, 원본 CUE를 `적용하기.bat` 위에 끌어다 놓습니다. 약 1GB의 빈 공간이 필요합니다.
+3. 검사가 끝나면 원본 폴더에 새 결과 폴더가 생깁니다. 그 안의 `langrisser-krpoc.cue`(한글판) 또는 `langrisser-mod.cue`(개조판)를 에뮬레이터에서 엽니다.
+
+적용 도구가 원본 6개 트랙과 완성 파일을 검사합니다. 원본은 보존하며, 같은 이름의 결과 폴더가 있으면 덮어쓰지 않고 중단합니다. 자세한 설명은 ZIP 안의 `설명서.txt`를 참고하세요.
 
 ## 저장 범위
 
 - Git에는 한글화·개조 소스와 문서, 원본에 적용하는 xdelta 패치와 패치 ZIP을 보관합니다.
 - 원본 게임과 완성된 CHD·BIN·ISO는 로컬에서만 사용하며 업로드하지 않습니다.
 
-2026-10-10에 모든 커밋에서 CHD를 제거하고, 같은 이름의 비공개 저장소를 다시 만들었습니다. 새 저장소의 전체 이력에는 CHD·BIN·ISO가 없으며, 이전 CHD 4개의 LFS 다운로드 요청과 기존 커밋 3개의 조회가 모두 404로 응답함을 확인했습니다. CHD 추적 규칙과 Git 제외 예외도 제거했습니다. 로컬 CHD와 진행 중인 별도 작업 파일은 그대로 보존했습니다.
+2026-10-10에 모든 커밋에서 CHD를 제거하고 저장소를 다시 만들었습니다. 새 저장소의 전체 이력에는 CHD·BIN·ISO가 없으며, 이전 CHD 4개의 LFS 다운로드 요청과 기존 커밋 3개의 조회가 모두 404로 응답함을 확인했습니다. CHD 추적 규칙과 Git 제외 예외도 제거했습니다. 로컬 CHD와 진행 중인 별도 작업 파일은 그대로 보존했습니다.
 
 ## 현재 완성본
 
@@ -22,7 +43,7 @@
 ## 새 PC에서 이어서 작업하기
 
 1. Git과 Python 3를 설치합니다.
-2. 아래 명령으로 작업 저장소를 내려받습니다. GitHub 로그인 권한이 필요합니다.
+2. 아래 명령으로 공개 작업 저장소를 내려받습니다. 다운로드에는 GitHub 로그인이 필요하지 않습니다.
 
 ```powershell
 git clone https://github.com/bbongpark/langrisser-saturn-kr-project.git
