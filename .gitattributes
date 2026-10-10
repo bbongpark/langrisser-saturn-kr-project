@@ -1,4 +1,3 @@
-*.chd filter=lfs diff=lfs merge=lfs -text
 # 배포 폴더는 줄바꿈도 검사값의 일부이므로 원래 바이트를 보존한다.
 /1.3V/** -text
 "1.3V 패치/**" -text
